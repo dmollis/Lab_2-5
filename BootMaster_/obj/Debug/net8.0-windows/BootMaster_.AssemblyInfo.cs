@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BootMaster_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d09d97191308929af0e2c40654865c7194c95b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44ea3f3b8e8229f87040f7ba6b99db5e1df731b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BootMaster_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BootMaster_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
