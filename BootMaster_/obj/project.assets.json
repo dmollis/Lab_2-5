@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BootMaster_.csproj",
-      "projectName": "BootMaster_",
-      "projectPath": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BootMaster_.csproj",
+      "projectUniqueName": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BudMayster_.csproj",
+      "projectName": "BudMayster_",
+      "projectPath": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BudMayster_.csproj",
       "packagesPath": "C:\\Users\\Марина\\.nuget\\packages\\",
       "outputPath": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\obj\\",
       "projectStyle": "PackageReference",
