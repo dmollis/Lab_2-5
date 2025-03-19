@@ -1,7 +1,19 @@
+<<<<<<< HEAD
 ﻿using BootMaster_;
 using BudMayster.Classes;
 using BudMayster_.Core.Classes;
 using MySql.Data.MySqlClient;
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+>>>>>>> e53e0cd (Add Goods Form Design)
 
 namespace BudMayster_.Core.GUI
 {
@@ -10,6 +22,7 @@ namespace BudMayster_.Core.GUI
         public Goods()
         {
             InitializeComponent();
+<<<<<<< HEAD
             контрагентиToolStripMenuItem.Click += (sender, e) => General.контрагентиToolStripMenuItem_Click(sender, e, this);
             загальнийToolStripMenuItem.Click += (sender, e) => General.загальнийToolStripMenuItem_Click(sender, e, this);
             вихідToolStripMenuItem.Click += (sender, e) => General.вихідToolStripMenuItem_Click(sender, e);
@@ -82,6 +95,18 @@ namespace BudMayster_.Core.GUI
                     button.Text = categories[i];
                 }
             }
+=======
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+>>>>>>> e53e0cd (Add Goods Form Design)
         }
     }
 }

@@ -7,6 +7,7 @@
     <Compile Update="Core\GUI\Goods.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="Core\GUI\Grunt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +15,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Core\GUI\Kontragents.cs">
+=======
+    <Compile Update="Core\GUI\Suppliers.cs">
+>>>>>>> e53e0cd (Add Goods Form Design)
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
