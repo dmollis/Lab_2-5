@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using BootMaster_;
 
 namespace BudMayster_.Core.GUI
 {
@@ -15,16 +7,34 @@ namespace BudMayster_.Core.GUI
         public Goods()
         {
             InitializeComponent();
+            контрагентиToolStripMenuItem.Click += (sender, e) => General.контрагентиToolStripMenuItem_Click(sender, e, this);
+            загальнийToolStripMenuItem.Click += (sender, e) => General.загальнийToolStripMenuItem_Click(sender, e, this);
+            вихідToolStripMenuItem.Click += (sender, e) => General.вихідToolStripMenuItem_Click(sender, e);
+            btn_supp.Click += (sender, e) => General.btn_supp_Click(sender, e, this);
         }
 
-        private void button47_Click(object sender, EventArgs e)
+        private void btn_knauf_Click(object sender, EventArgs e)
         {
-
+            General.previousLocation = General.GetLocation(this);
+            KNAYF knaufForm = new KNAYF()
+            {
+                StartPosition = FormStartPosition.Manual,
+                Location = General.previousLocation
+            };
+            knaufForm.Show();
+            this.Hide();
         }
 
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        private void btn_knauf_folder_Click(object sender, EventArgs e)
         {
-
+            General.previousLocation = General.GetLocation(this);
+            KNAYF knaufForm = new KNAYF()
+            {
+                StartPosition = FormStartPosition.Manual,
+                Location = General.previousLocation
+            };
+            knaufForm.Show();
+            this.Hide();
         }
     }
 }

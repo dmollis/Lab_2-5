@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using BootMaster_;
 
 namespace BudMayster_.Core.GUI
 {
@@ -15,6 +7,10 @@ namespace BudMayster_.Core.GUI
         public Suppliers()
         {
             InitializeComponent();
+            товариToolStripMenuItem.Click += (sender, e) => General.товариToolStripMenuItem_Click(sender, e, this);
+            загальнийToolStripMenuItem.Click += (sender, e) => General.загальнийToolStripMenuItem_Click(sender, e, this);
+            вихідToolStripMenuItem.Click += (sender, e) => General.вихідToolStripMenuItem_Click(sender, e);
+            btn_goods.Click += (sender, e) => General.btn_goods_Click(sender, e, this);
         }
     }
 }
