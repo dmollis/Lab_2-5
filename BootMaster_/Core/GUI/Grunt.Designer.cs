@@ -33,85 +33,85 @@
             button18 = new Button();
             panel2 = new Panel();
             textBox51 = new TextBox();
-            textBox52 = new TextBox();
-            textBox53 = new TextBox();
-            textBox54 = new TextBox();
-            textBox55 = new TextBox();
-            textBox56 = new TextBox();
-            textBox57 = new TextBox();
-            textBox58 = new TextBox();
+            txtId8 = new TextBox();
+            txtPriceProd8 = new TextBox();
+            txtPercOpt8 = new TextBox();
+            txtPriceOpt8 = new TextBox();
+            txtPercZakup8 = new TextBox();
+            txtPriceZakup8 = new TextBox();
+            txtQuant8 = new TextBox();
             textBox59 = new TextBox();
-            textBox60 = new TextBox();
+            txtName8 = new TextBox();
             textBox61 = new TextBox();
-            textBox62 = new TextBox();
-            textBox63 = new TextBox();
-            textBox64 = new TextBox();
-            textBox65 = new TextBox();
-            textBox66 = new TextBox();
-            textBox67 = new TextBox();
-            textBox68 = new TextBox();
+            txtId7 = new TextBox();
+            txtPriceProd7 = new TextBox();
+            txtPercOpt7 = new TextBox();
+            txtPriceOpt7 = new TextBox();
+            txtPercZakup7 = new TextBox();
+            txtPriceZakup7 = new TextBox();
+            txtQuant7 = new TextBox();
             textBox69 = new TextBox();
-            textBox70 = new TextBox();
+            txtName7 = new TextBox();
             textBox71 = new TextBox();
-            textBox72 = new TextBox();
-            textBox73 = new TextBox();
-            textBox74 = new TextBox();
-            textBox75 = new TextBox();
-            textBox76 = new TextBox();
-            textBox77 = new TextBox();
-            textBox78 = new TextBox();
+            txtId6 = new TextBox();
+            txtPriceProd6 = new TextBox();
+            txtPercOpt6 = new TextBox();
+            txtPriceOpt6 = new TextBox();
+            txtPercZakup6 = new TextBox();
+            txtPriceZakup6 = new TextBox();
+            txtQuant6 = new TextBox();
             textBox79 = new TextBox();
-            textBox80 = new TextBox();
+            txtName6 = new TextBox();
             textBox81 = new TextBox();
-            textBox82 = new TextBox();
-            textBox83 = new TextBox();
-            textBox84 = new TextBox();
-            textBox85 = new TextBox();
-            textBox86 = new TextBox();
-            textBox87 = new TextBox();
-            textBox88 = new TextBox();
+            txtId5 = new TextBox();
+            txtPriceProd5 = new TextBox();
+            txtPercOpt5 = new TextBox();
+            txtPriceOpt5 = new TextBox();
+            txtPercZakup5 = new TextBox();
+            txtPriceZakup5 = new TextBox();
+            txtQuant5 = new TextBox();
             textBox89 = new TextBox();
-            textBox90 = new TextBox();
+            txtName5 = new TextBox();
             textBox31 = new TextBox();
-            textBox32 = new TextBox();
-            textBox33 = new TextBox();
-            textBox34 = new TextBox();
-            textBox35 = new TextBox();
-            textBox36 = new TextBox();
-            textBox37 = new TextBox();
-            textBox38 = new TextBox();
+            txtId4 = new TextBox();
+            txtPriceProd4 = new TextBox();
+            txtPercOpt4 = new TextBox();
+            txtPriceOpt4 = new TextBox();
+            txtPercZakup4 = new TextBox();
+            txtPriceZakup4 = new TextBox();
+            txtQuant4 = new TextBox();
             textBox39 = new TextBox();
-            textBox40 = new TextBox();
+            txtName4 = new TextBox();
             textBox41 = new TextBox();
-            textBox42 = new TextBox();
-            textBox43 = new TextBox();
-            textBox44 = new TextBox();
-            textBox45 = new TextBox();
-            textBox46 = new TextBox();
-            textBox47 = new TextBox();
-            textBox48 = new TextBox();
+            txtId3 = new TextBox();
+            txtPriceProd3 = new TextBox();
+            txtPercOpt3 = new TextBox();
+            txtPriceOpt3 = new TextBox();
+            txtPercZakup3 = new TextBox();
+            txtPriceZakup3 = new TextBox();
+            txtQuant3 = new TextBox();
             textBox49 = new TextBox();
-            textBox50 = new TextBox();
+            txtName3 = new TextBox();
             textBox21 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            textBox24 = new TextBox();
-            textBox25 = new TextBox();
-            textBox26 = new TextBox();
-            textBox27 = new TextBox();
-            textBox28 = new TextBox();
+            txtId2 = new TextBox();
+            txtPriceProd2 = new TextBox();
+            txtPercOpt2 = new TextBox();
+            txtPriceOpt2 = new TextBox();
+            txtPercZakup2 = new TextBox();
+            txtPriceZakup2 = new TextBox();
+            txtQuant2 = new TextBox();
             textBox29 = new TextBox();
-            textBox30 = new TextBox();
+            txtName2 = new TextBox();
             textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            textBox17 = new TextBox();
-            textBox18 = new TextBox();
+            txtId1 = new TextBox();
+            txtPriceProd1 = new TextBox();
+            txtPercOpt1 = new TextBox();
+            txtPriceOpt1 = new TextBox();
+            txtPercZakup1 = new TextBox();
+            txtPriceZakup1 = new TextBox();
+            txtQuant1 = new TextBox();
             textBox19 = new TextBox();
-            textBox20 = new TextBox();
+            txtName1 = new TextBox();
             textBox10 = new TextBox();
             textBox9 = new TextBox();
             textBox8 = new TextBox();
@@ -126,30 +126,30 @@
             hScrollBar1 = new HScrollBar();
             vScrollBar2 = new VScrollBar();
             button27 = new Button();
-            button25 = new Button();
+            btnMenu4 = new Button();
             button26 = new Button();
             button45 = new Button();
-            button46 = new Button();
-            button47 = new Button();
+            btnMenu3 = new Button();
+            btnMenu2 = new Button();
             button15 = new Button();
             button33 = new Button();
             button34 = new Button();
             button35 = new Button();
             button36 = new Button();
             button37 = new Button();
-            button38 = new Button();
+            btnMenu10 = new Button();
             button39 = new Button();
             button40 = new Button();
-            button41 = new Button();
-            button42 = new Button();
-            button43 = new Button();
+            btnMenu7 = new Button();
+            btnMenu9 = new Button();
+            btnMenu8 = new Button();
             button44 = new Button();
             button31 = new Button();
-            button32 = new Button();
+            btnMenu6 = new Button();
             button29 = new Button();
-            button30 = new Button();
+            btnMenu5 = new Button();
             button28 = new Button();
-            button21 = new Button();
+            btnMenu1 = new Button();
             button23 = new Button();
             button22 = new Button();
             button20 = new Button();
@@ -200,6 +200,16 @@
             продажіToolStripMenuItem = new ToolStripMenuItem();
             партіїТоварівToolStripMenuItem = new ToolStripMenuItem();
             взаєморахункиToolStripMenuItem = new ToolStripMenuItem();
+            textBox12 = new TextBox();
+            txtId9 = new TextBox();
+            txtPriceProd9 = new TextBox();
+            txtPercOpt9 = new TextBox();
+            txtPriceOpt9 = new TextBox();
+            txtPercZakup9 = new TextBox();
+            txtPriceZakup9 = new TextBox();
+            txtQuant9 = new TextBox();
+            textBox22 = new TextBox();
+            txtName9 = new TextBox();
             tabs.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
@@ -234,86 +244,96 @@
             // panel2
             // 
             panel2.BackColor = SystemColors.Control;
-            panel2.Controls.Add(textBox51);
-            panel2.Controls.Add(textBox52);
-            panel2.Controls.Add(textBox53);
-            panel2.Controls.Add(textBox54);
-            panel2.Controls.Add(textBox55);
-            panel2.Controls.Add(textBox56);
-            panel2.Controls.Add(textBox57);
-            panel2.Controls.Add(textBox58);
-            panel2.Controls.Add(textBox59);
-            panel2.Controls.Add(textBox60);
-            panel2.Controls.Add(textBox61);
-            panel2.Controls.Add(textBox62);
-            panel2.Controls.Add(textBox63);
-            panel2.Controls.Add(textBox64);
-            panel2.Controls.Add(textBox65);
-            panel2.Controls.Add(textBox66);
-            panel2.Controls.Add(textBox67);
-            panel2.Controls.Add(textBox68);
-            panel2.Controls.Add(textBox69);
-            panel2.Controls.Add(textBox70);
-            panel2.Controls.Add(textBox71);
-            panel2.Controls.Add(textBox72);
-            panel2.Controls.Add(textBox73);
-            panel2.Controls.Add(textBox74);
-            panel2.Controls.Add(textBox75);
-            panel2.Controls.Add(textBox76);
-            panel2.Controls.Add(textBox77);
-            panel2.Controls.Add(textBox78);
-            panel2.Controls.Add(textBox79);
-            panel2.Controls.Add(textBox80);
-            panel2.Controls.Add(textBox81);
-            panel2.Controls.Add(textBox82);
-            panel2.Controls.Add(textBox83);
-            panel2.Controls.Add(textBox84);
-            panel2.Controls.Add(textBox85);
-            panel2.Controls.Add(textBox86);
-            panel2.Controls.Add(textBox87);
-            panel2.Controls.Add(textBox88);
-            panel2.Controls.Add(textBox89);
-            panel2.Controls.Add(textBox90);
-            panel2.Controls.Add(textBox31);
-            panel2.Controls.Add(textBox32);
-            panel2.Controls.Add(textBox33);
-            panel2.Controls.Add(textBox34);
-            panel2.Controls.Add(textBox35);
-            panel2.Controls.Add(textBox36);
-            panel2.Controls.Add(textBox37);
-            panel2.Controls.Add(textBox38);
-            panel2.Controls.Add(textBox39);
-            panel2.Controls.Add(textBox40);
-            panel2.Controls.Add(textBox41);
-            panel2.Controls.Add(textBox42);
-            panel2.Controls.Add(textBox43);
-            panel2.Controls.Add(textBox44);
-            panel2.Controls.Add(textBox45);
-            panel2.Controls.Add(textBox46);
-            panel2.Controls.Add(textBox47);
-            panel2.Controls.Add(textBox48);
-            panel2.Controls.Add(textBox49);
-            panel2.Controls.Add(textBox50);
-            panel2.Controls.Add(textBox21);
-            panel2.Controls.Add(textBox22);
-            panel2.Controls.Add(textBox23);
-            panel2.Controls.Add(textBox24);
-            panel2.Controls.Add(textBox25);
-            panel2.Controls.Add(textBox26);
-            panel2.Controls.Add(textBox27);
-            panel2.Controls.Add(textBox28);
-            panel2.Controls.Add(textBox29);
-            panel2.Controls.Add(textBox30);
-            panel2.Controls.Add(textBox11);
             panel2.Controls.Add(textBox12);
-            panel2.Controls.Add(textBox13);
-            panel2.Controls.Add(textBox14);
-            panel2.Controls.Add(textBox15);
-            panel2.Controls.Add(textBox16);
-            panel2.Controls.Add(textBox17);
-            panel2.Controls.Add(textBox18);
+            panel2.Controls.Add(txtId9);
+            panel2.Controls.Add(txtPriceProd9);
+            panel2.Controls.Add(txtPercOpt9);
+            panel2.Controls.Add(txtPriceOpt9);
+            panel2.Controls.Add(txtPercZakup9);
+            panel2.Controls.Add(txtPriceZakup9);
+            panel2.Controls.Add(txtQuant9);
+            panel2.Controls.Add(textBox22);
+            panel2.Controls.Add(txtName9);
+            panel2.Controls.Add(textBox51);
+            panel2.Controls.Add(txtId8);
+            panel2.Controls.Add(txtPriceProd8);
+            panel2.Controls.Add(txtPercOpt8);
+            panel2.Controls.Add(txtPriceOpt8);
+            panel2.Controls.Add(txtPercZakup8);
+            panel2.Controls.Add(txtPriceZakup8);
+            panel2.Controls.Add(txtQuant8);
+            panel2.Controls.Add(textBox59);
+            panel2.Controls.Add(txtName8);
+            panel2.Controls.Add(textBox61);
+            panel2.Controls.Add(txtId7);
+            panel2.Controls.Add(txtPriceProd7);
+            panel2.Controls.Add(txtPercOpt7);
+            panel2.Controls.Add(txtPriceOpt7);
+            panel2.Controls.Add(txtPercZakup7);
+            panel2.Controls.Add(txtPriceZakup7);
+            panel2.Controls.Add(txtQuant7);
+            panel2.Controls.Add(textBox69);
+            panel2.Controls.Add(txtName7);
+            panel2.Controls.Add(textBox71);
+            panel2.Controls.Add(txtId6);
+            panel2.Controls.Add(txtPriceProd6);
+            panel2.Controls.Add(txtPercOpt6);
+            panel2.Controls.Add(txtPriceOpt6);
+            panel2.Controls.Add(txtPercZakup6);
+            panel2.Controls.Add(txtPriceZakup6);
+            panel2.Controls.Add(txtQuant6);
+            panel2.Controls.Add(textBox79);
+            panel2.Controls.Add(txtName6);
+            panel2.Controls.Add(textBox81);
+            panel2.Controls.Add(txtId5);
+            panel2.Controls.Add(txtPriceProd5);
+            panel2.Controls.Add(txtPercOpt5);
+            panel2.Controls.Add(txtPriceOpt5);
+            panel2.Controls.Add(txtPercZakup5);
+            panel2.Controls.Add(txtPriceZakup5);
+            panel2.Controls.Add(txtQuant5);
+            panel2.Controls.Add(textBox89);
+            panel2.Controls.Add(txtName5);
+            panel2.Controls.Add(textBox31);
+            panel2.Controls.Add(txtId4);
+            panel2.Controls.Add(txtPriceProd4);
+            panel2.Controls.Add(txtPercOpt4);
+            panel2.Controls.Add(txtPriceOpt4);
+            panel2.Controls.Add(txtPercZakup4);
+            panel2.Controls.Add(txtPriceZakup4);
+            panel2.Controls.Add(txtQuant4);
+            panel2.Controls.Add(textBox39);
+            panel2.Controls.Add(txtName4);
+            panel2.Controls.Add(textBox41);
+            panel2.Controls.Add(txtId3);
+            panel2.Controls.Add(txtPriceProd3);
+            panel2.Controls.Add(txtPercOpt3);
+            panel2.Controls.Add(txtPriceOpt3);
+            panel2.Controls.Add(txtPercZakup3);
+            panel2.Controls.Add(txtPriceZakup3);
+            panel2.Controls.Add(txtQuant3);
+            panel2.Controls.Add(textBox49);
+            panel2.Controls.Add(txtName3);
+            panel2.Controls.Add(textBox21);
+            panel2.Controls.Add(txtId2);
+            panel2.Controls.Add(txtPriceProd2);
+            panel2.Controls.Add(txtPercOpt2);
+            panel2.Controls.Add(txtPriceOpt2);
+            panel2.Controls.Add(txtPercZakup2);
+            panel2.Controls.Add(txtPriceZakup2);
+            panel2.Controls.Add(txtQuant2);
+            panel2.Controls.Add(textBox29);
+            panel2.Controls.Add(txtName2);
+            panel2.Controls.Add(textBox11);
+            panel2.Controls.Add(txtId1);
+            panel2.Controls.Add(txtPriceProd1);
+            panel2.Controls.Add(txtPercOpt1);
+            panel2.Controls.Add(txtPriceOpt1);
+            panel2.Controls.Add(txtPercZakup1);
+            panel2.Controls.Add(txtPriceZakup1);
+            panel2.Controls.Add(txtQuant1);
             panel2.Controls.Add(textBox19);
-            panel2.Controls.Add(textBox20);
+            panel2.Controls.Add(txtName1);
             panel2.Controls.Add(textBox10);
             panel2.Controls.Add(textBox9);
             panel2.Controls.Add(textBox8);
@@ -339,82 +359,75 @@
             textBox51.TabIndex = 89;
             textBox51.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox52
+            // txtId8
             // 
-            textBox52.BackColor = SystemColors.Control;
-            textBox52.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox52.Location = new Point(2, 256);
-            textBox52.Name = "textBox52";
-            textBox52.Size = new Size(48, 25);
-            textBox52.TabIndex = 88;
-            textBox52.Text = "12201";
-            textBox52.TextAlign = HorizontalAlignment.Center;
+            txtId8.BackColor = SystemColors.Control;
+            txtId8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId8.Location = new Point(2, 256);
+            txtId8.Name = "txtId8";
+            txtId8.Size = new Size(48, 25);
+            txtId8.TabIndex = 88;
+            txtId8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox53
+            // txtPriceProd8
             // 
-            textBox53.BackColor = SystemColors.Control;
-            textBox53.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox53.Location = new Point(727, 256);
-            textBox53.Name = "textBox53";
-            textBox53.Size = new Size(98, 25);
-            textBox53.TabIndex = 87;
-            textBox53.Text = "339.00";
-            textBox53.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd8.BackColor = SystemColors.Control;
+            txtPriceProd8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd8.Location = new Point(727, 256);
+            txtPriceProd8.Name = "txtPriceProd8";
+            txtPriceProd8.Size = new Size(98, 25);
+            txtPriceProd8.TabIndex = 87;
+            txtPriceProd8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox54
+            // txtPercOpt8
             // 
-            textBox54.BackColor = SystemColors.Control;
-            textBox54.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox54.Location = new Point(666, 256);
-            textBox54.Name = "textBox54";
-            textBox54.Size = new Size(60, 25);
-            textBox54.TabIndex = 86;
-            textBox54.Text = "19.9";
-            textBox54.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt8.BackColor = SystemColors.Control;
+            txtPercOpt8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt8.Location = new Point(666, 256);
+            txtPercOpt8.Name = "txtPercOpt8";
+            txtPercOpt8.Size = new Size(60, 25);
+            txtPercOpt8.TabIndex = 86;
+            txtPercOpt8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox55
+            // txtPriceOpt8
             // 
-            textBox55.BackColor = SystemColors.Control;
-            textBox55.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox55.Location = new Point(565, 256);
-            textBox55.Name = "textBox55";
-            textBox55.Size = new Size(101, 25);
-            textBox55.TabIndex = 85;
-            textBox55.Text = "311.00";
-            textBox55.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt8.BackColor = SystemColors.Control;
+            txtPriceOpt8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt8.Location = new Point(565, 256);
+            txtPriceOpt8.Name = "txtPriceOpt8";
+            txtPriceOpt8.Size = new Size(101, 25);
+            txtPriceOpt8.TabIndex = 85;
+            txtPriceOpt8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox56
+            // txtPercZakup8
             // 
-            textBox56.BackColor = SystemColors.Control;
-            textBox56.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox56.Location = new Point(498, 256);
-            textBox56.Name = "textBox56";
-            textBox56.Size = new Size(68, 25);
-            textBox56.TabIndex = 84;
-            textBox56.Text = "10.0";
-            textBox56.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup8.BackColor = SystemColors.Control;
+            txtPercZakup8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup8.Location = new Point(498, 256);
+            txtPercZakup8.Name = "txtPercZakup8";
+            txtPercZakup8.Size = new Size(68, 25);
+            txtPercZakup8.TabIndex = 84;
+            txtPercZakup8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox57
+            // txtPriceZakup8
             // 
-            textBox57.BackColor = SystemColors.Control;
-            textBox57.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox57.Location = new Point(397, 256);
-            textBox57.Name = "textBox57";
-            textBox57.Size = new Size(102, 25);
-            textBox57.TabIndex = 83;
-            textBox57.Text = "282.70";
-            textBox57.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup8.BackColor = SystemColors.Control;
+            txtPriceZakup8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup8.Location = new Point(397, 256);
+            txtPriceZakup8.Name = "txtPriceZakup8";
+            txtPriceZakup8.Size = new Size(102, 25);
+            txtPriceZakup8.TabIndex = 83;
+            txtPriceZakup8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox58
+            // txtQuant8
             // 
-            textBox58.BackColor = SystemColors.Control;
-            textBox58.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox58.Location = new Point(327, 256);
-            textBox58.Name = "textBox58";
-            textBox58.Size = new Size(69, 25);
-            textBox58.TabIndex = 82;
-            textBox58.Text = "33";
-            textBox58.TextAlign = HorizontalAlignment.Center;
+            txtQuant8.BackColor = SystemColors.Control;
+            txtQuant8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant8.Location = new Point(327, 256);
+            txtQuant8.Name = "txtQuant8";
+            txtQuant8.Size = new Size(69, 25);
+            txtQuant8.TabIndex = 82;
+            txtQuant8.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox59
             // 
@@ -427,15 +440,14 @@
             textBox59.Text = "шт.";
             textBox59.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox60
+            // txtName8
             // 
-            textBox60.BackColor = SystemColors.Control;
-            textBox60.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox60.Location = new Point(49, 256);
-            textBox60.Name = "textBox60";
-            textBox60.Size = new Size(211, 25);
-            textBox60.TabIndex = 80;
-            textBox60.Text = "Ґрунт Хафґрунт 10кг";
+            txtName8.BackColor = SystemColors.Control;
+            txtName8.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName8.Location = new Point(49, 256);
+            txtName8.Name = "txtName8";
+            txtName8.Size = new Size(211, 25);
+            txtName8.TabIndex = 80;
             // 
             // textBox61
             // 
@@ -448,82 +460,75 @@
             textBox61.Text = "прострочен";
             textBox61.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox62
+            // txtId7
             // 
-            textBox62.BackColor = SystemColors.Control;
-            textBox62.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox62.Location = new Point(2, 224);
-            textBox62.Name = "textBox62";
-            textBox62.Size = new Size(48, 25);
-            textBox62.TabIndex = 78;
-            textBox62.Text = "11546";
-            textBox62.TextAlign = HorizontalAlignment.Center;
+            txtId7.BackColor = SystemColors.Control;
+            txtId7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId7.Location = new Point(2, 224);
+            txtId7.Name = "txtId7";
+            txtId7.Size = new Size(48, 25);
+            txtId7.TabIndex = 78;
+            txtId7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox63
+            // txtPriceProd7
             // 
-            textBox63.BackColor = SystemColors.Control;
-            textBox63.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox63.Location = new Point(727, 224);
-            textBox63.Name = "textBox63";
-            textBox63.Size = new Size(98, 25);
-            textBox63.TabIndex = 77;
-            textBox63.Text = "172.00";
-            textBox63.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd7.BackColor = SystemColors.Control;
+            txtPriceProd7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd7.Location = new Point(727, 224);
+            txtPriceProd7.Name = "txtPriceProd7";
+            txtPriceProd7.Size = new Size(98, 25);
+            txtPriceProd7.TabIndex = 77;
+            txtPriceProd7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox64
+            // txtPercOpt7
             // 
-            textBox64.BackColor = SystemColors.Control;
-            textBox64.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox64.Location = new Point(666, 224);
-            textBox64.Name = "textBox64";
-            textBox64.Size = new Size(60, 25);
-            textBox64.TabIndex = 76;
-            textBox64.Text = "15.1";
-            textBox64.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt7.BackColor = SystemColors.Control;
+            txtPercOpt7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt7.Location = new Point(666, 224);
+            txtPercOpt7.Name = "txtPercOpt7";
+            txtPercOpt7.Size = new Size(60, 25);
+            txtPercOpt7.TabIndex = 76;
+            txtPercOpt7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox65
+            // txtPriceOpt7
             // 
-            textBox65.BackColor = SystemColors.Control;
-            textBox65.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox65.Location = new Point(565, 224);
-            textBox65.Name = "textBox65";
-            textBox65.Size = new Size(101, 25);
-            textBox65.TabIndex = 75;
-            textBox65.Text = "164.50";
-            textBox65.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt7.BackColor = SystemColors.Control;
+            txtPriceOpt7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt7.Location = new Point(565, 224);
+            txtPriceOpt7.Name = "txtPriceOpt7";
+            txtPriceOpt7.Size = new Size(101, 25);
+            txtPriceOpt7.TabIndex = 75;
+            txtPriceOpt7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox66
+            // txtPercZakup7
             // 
-            textBox66.BackColor = SystemColors.Control;
-            textBox66.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox66.Location = new Point(498, 224);
-            textBox66.Name = "textBox66";
-            textBox66.Size = new Size(68, 25);
-            textBox66.TabIndex = 74;
-            textBox66.Text = "10.0";
-            textBox66.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup7.BackColor = SystemColors.Control;
+            txtPercZakup7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup7.Location = new Point(498, 224);
+            txtPercZakup7.Name = "txtPercZakup7";
+            txtPercZakup7.Size = new Size(68, 25);
+            txtPercZakup7.TabIndex = 74;
+            txtPercZakup7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox67
+            // txtPriceZakup7
             // 
-            textBox67.BackColor = SystemColors.Control;
-            textBox67.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox67.Location = new Point(397, 224);
-            textBox67.Name = "textBox67";
-            textBox67.Size = new Size(102, 25);
-            textBox67.TabIndex = 73;
-            textBox67.Text = "149.50";
-            textBox67.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup7.BackColor = SystemColors.Control;
+            txtPriceZakup7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup7.Location = new Point(397, 224);
+            txtPriceZakup7.Name = "txtPriceZakup7";
+            txtPriceZakup7.Size = new Size(102, 25);
+            txtPriceZakup7.TabIndex = 73;
+            txtPriceZakup7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox68
+            // txtQuant7
             // 
-            textBox68.BackColor = SystemColors.Control;
-            textBox68.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox68.Location = new Point(327, 224);
-            textBox68.Name = "textBox68";
-            textBox68.Size = new Size(69, 25);
-            textBox68.TabIndex = 72;
-            textBox68.Text = "1";
-            textBox68.TextAlign = HorizontalAlignment.Center;
+            txtQuant7.BackColor = SystemColors.Control;
+            txtQuant7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant7.Location = new Point(327, 224);
+            txtQuant7.Name = "txtQuant7";
+            txtQuant7.Size = new Size(69, 25);
+            txtQuant7.TabIndex = 72;
+            txtQuant7.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox69
             // 
@@ -536,15 +541,14 @@
             textBox69.Text = "шт.";
             textBox69.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox70
+            // txtName7
             // 
-            textBox70.BackColor = SystemColors.Control;
-            textBox70.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox70.Location = new Point(49, 224);
-            textBox70.Name = "textBox70";
-            textBox70.Size = new Size(211, 25);
-            textBox70.TabIndex = 70;
-            textBox70.Text = "Ґрунт Хафґрунт 5кг";
+            txtName7.BackColor = SystemColors.Control;
+            txtName7.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName7.Location = new Point(49, 224);
+            txtName7.Name = "txtName7";
+            txtName7.Size = new Size(211, 25);
+            txtName7.TabIndex = 70;
             // 
             // textBox71
             // 
@@ -556,82 +560,75 @@
             textBox71.TabIndex = 69;
             textBox71.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox72
+            // txtId6
             // 
-            textBox72.BackColor = SystemColors.Control;
-            textBox72.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox72.Location = new Point(2, 191);
-            textBox72.Name = "textBox72";
-            textBox72.Size = new Size(48, 25);
-            textBox72.TabIndex = 68;
-            textBox72.Text = "12742";
-            textBox72.TextAlign = HorizontalAlignment.Center;
+            txtId6.BackColor = SystemColors.Control;
+            txtId6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId6.Location = new Point(2, 191);
+            txtId6.Name = "txtId6";
+            txtId6.Size = new Size(48, 25);
+            txtId6.TabIndex = 68;
+            txtId6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox73
+            // txtPriceProd6
             // 
-            textBox73.BackColor = SystemColors.Control;
-            textBox73.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox73.Location = new Point(727, 191);
-            textBox73.Name = "textBox73";
-            textBox73.Size = new Size(98, 25);
-            textBox73.TabIndex = 67;
-            textBox73.Text = "375.00";
-            textBox73.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd6.BackColor = SystemColors.Control;
+            txtPriceProd6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd6.Location = new Point(727, 191);
+            txtPriceProd6.Name = "txtPriceProd6";
+            txtPriceProd6.Size = new Size(98, 25);
+            txtPriceProd6.TabIndex = 67;
+            txtPriceProd6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox74
+            // txtPercOpt6
             // 
-            textBox74.BackColor = SystemColors.Control;
-            textBox74.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox74.Location = new Point(666, 191);
-            textBox74.Name = "textBox74";
-            textBox74.Size = new Size(60, 25);
-            textBox74.TabIndex = 66;
-            textBox74.Text = "20.2";
-            textBox74.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt6.BackColor = SystemColors.Control;
+            txtPercOpt6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt6.Location = new Point(666, 191);
+            txtPercOpt6.Name = "txtPercOpt6";
+            txtPercOpt6.Size = new Size(60, 25);
+            txtPercOpt6.TabIndex = 66;
+            txtPercOpt6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox75
+            // txtPriceOpt6
             // 
-            textBox75.BackColor = SystemColors.Control;
-            textBox75.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox75.Location = new Point(565, 191);
-            textBox75.Name = "textBox75";
-            textBox75.Size = new Size(101, 25);
-            textBox75.TabIndex = 65;
-            textBox75.Text = "343.00";
-            textBox75.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt6.BackColor = SystemColors.Control;
+            txtPriceOpt6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt6.Location = new Point(565, 191);
+            txtPriceOpt6.Name = "txtPriceOpt6";
+            txtPriceOpt6.Size = new Size(101, 25);
+            txtPriceOpt6.TabIndex = 65;
+            txtPriceOpt6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox76
+            // txtPercZakup6
             // 
-            textBox76.BackColor = SystemColors.Control;
-            textBox76.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox76.Location = new Point(498, 191);
-            textBox76.Name = "textBox76";
-            textBox76.Size = new Size(68, 25);
-            textBox76.TabIndex = 64;
-            textBox76.Text = "9.9";
-            textBox76.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup6.BackColor = SystemColors.Control;
+            txtPercZakup6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup6.Location = new Point(498, 191);
+            txtPercZakup6.Name = "txtPercZakup6";
+            txtPercZakup6.Size = new Size(68, 25);
+            txtPercZakup6.TabIndex = 64;
+            txtPercZakup6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox77
+            // txtPriceZakup6
             // 
-            textBox77.BackColor = SystemColors.Control;
-            textBox77.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox77.Location = new Point(397, 191);
-            textBox77.Name = "textBox77";
-            textBox77.Size = new Size(102, 25);
-            textBox77.TabIndex = 63;
-            textBox77.Text = "312.00";
-            textBox77.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup6.BackColor = SystemColors.Control;
+            txtPriceZakup6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup6.Location = new Point(397, 191);
+            txtPriceZakup6.Name = "txtPriceZakup6";
+            txtPriceZakup6.Size = new Size(102, 25);
+            txtPriceZakup6.TabIndex = 63;
+            txtPriceZakup6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox78
+            // txtQuant6
             // 
-            textBox78.BackColor = SystemColors.Control;
-            textBox78.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox78.Location = new Point(327, 191);
-            textBox78.Name = "textBox78";
-            textBox78.Size = new Size(69, 25);
-            textBox78.TabIndex = 62;
-            textBox78.Text = "106";
-            textBox78.TextAlign = HorizontalAlignment.Center;
+            txtQuant6.BackColor = SystemColors.Control;
+            txtQuant6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant6.Location = new Point(327, 191);
+            txtQuant6.Name = "txtQuant6";
+            txtQuant6.Size = new Size(69, 25);
+            txtQuant6.TabIndex = 62;
+            txtQuant6.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox79
             // 
@@ -644,15 +641,14 @@
             textBox79.Text = "шт.";
             textBox79.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox80
+            // txtName6
             // 
-            textBox80.BackColor = SystemColors.Control;
-            textBox80.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox80.Location = new Point(49, 191);
-            textBox80.Name = "textBox80";
-            textBox80.Size = new Size(211, 25);
-            textBox80.TabIndex = 60;
-            textBox80.Text = "Ґрунт Тифенґрунт 10кг";
+            txtName6.BackColor = SystemColors.Control;
+            txtName6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName6.Location = new Point(49, 191);
+            txtName6.Name = "txtName6";
+            txtName6.Size = new Size(211, 25);
+            txtName6.TabIndex = 60;
             // 
             // textBox81
             // 
@@ -665,82 +661,75 @@
             textBox81.Text = "1 брак";
             textBox81.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox82
+            // txtId5
             // 
-            textBox82.BackColor = SystemColors.Control;
-            textBox82.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox82.Location = new Point(2, 159);
-            textBox82.Name = "textBox82";
-            textBox82.Size = new Size(48, 25);
-            textBox82.TabIndex = 58;
-            textBox82.Text = "10543";
-            textBox82.TextAlign = HorizontalAlignment.Center;
+            txtId5.BackColor = SystemColors.Control;
+            txtId5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId5.Location = new Point(2, 159);
+            txtId5.Name = "txtId5";
+            txtId5.Size = new Size(48, 25);
+            txtId5.TabIndex = 58;
+            txtId5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox83
+            // txtPriceProd5
             // 
-            textBox83.BackColor = SystemColors.Control;
-            textBox83.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox83.Location = new Point(727, 159);
-            textBox83.Name = "textBox83";
-            textBox83.Size = new Size(98, 25);
-            textBox83.TabIndex = 57;
-            textBox83.Text = "187.00";
-            textBox83.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd5.BackColor = SystemColors.Control;
+            txtPriceProd5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd5.Location = new Point(727, 159);
+            txtPriceProd5.Name = "txtPriceProd5";
+            txtPriceProd5.Size = new Size(98, 25);
+            txtPriceProd5.TabIndex = 57;
+            txtPriceProd5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox84
+            // txtPercOpt5
             // 
-            textBox84.BackColor = SystemColors.Control;
-            textBox84.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox84.Location = new Point(666, 159);
-            textBox84.Name = "textBox84";
-            textBox84.Size = new Size(60, 25);
-            textBox84.TabIndex = 56;
-            textBox84.Text = "10.7";
-            textBox84.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt5.BackColor = SystemColors.Control;
+            txtPercOpt5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt5.Location = new Point(666, 159);
+            txtPercOpt5.Name = "txtPercOpt5";
+            txtPercOpt5.Size = new Size(60, 25);
+            txtPercOpt5.TabIndex = 56;
+            txtPercOpt5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox85
+            // txtPriceOpt5
             // 
-            textBox85.BackColor = SystemColors.Control;
-            textBox85.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox85.Location = new Point(565, 159);
-            textBox85.Name = "textBox85";
-            textBox85.Size = new Size(101, 25);
-            textBox85.TabIndex = 55;
-            textBox85.Text = "185.00";
-            textBox85.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt5.BackColor = SystemColors.Control;
+            txtPriceOpt5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt5.Location = new Point(565, 159);
+            txtPriceOpt5.Name = "txtPriceOpt5";
+            txtPriceOpt5.Size = new Size(101, 25);
+            txtPriceOpt5.TabIndex = 55;
+            txtPriceOpt5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox86
+            // txtPercZakup5
             // 
-            textBox86.BackColor = SystemColors.Control;
-            textBox86.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox86.Location = new Point(498, 159);
-            textBox86.Name = "textBox86";
-            textBox86.Size = new Size(68, 25);
-            textBox86.TabIndex = 54;
-            textBox86.Text = "9.5";
-            textBox86.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup5.BackColor = SystemColors.Control;
+            txtPercZakup5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup5.Location = new Point(498, 159);
+            txtPercZakup5.Name = "txtPercZakup5";
+            txtPercZakup5.Size = new Size(68, 25);
+            txtPercZakup5.TabIndex = 54;
+            txtPercZakup5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox87
+            // txtPriceZakup5
             // 
-            textBox87.BackColor = SystemColors.Control;
-            textBox87.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox87.Location = new Point(397, 159);
-            textBox87.Name = "textBox87";
-            textBox87.Size = new Size(102, 25);
-            textBox87.TabIndex = 53;
-            textBox87.Text = "169.00";
-            textBox87.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup5.BackColor = SystemColors.Control;
+            txtPriceZakup5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup5.Location = new Point(397, 159);
+            txtPriceZakup5.Name = "txtPriceZakup5";
+            txtPriceZakup5.Size = new Size(102, 25);
+            txtPriceZakup5.TabIndex = 53;
+            txtPriceZakup5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox88
+            // txtQuant5
             // 
-            textBox88.BackColor = SystemColors.Control;
-            textBox88.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox88.Location = new Point(327, 159);
-            textBox88.Name = "textBox88";
-            textBox88.Size = new Size(69, 25);
-            textBox88.TabIndex = 52;
-            textBox88.Text = "165";
-            textBox88.TextAlign = HorizontalAlignment.Center;
+            txtQuant5.BackColor = SystemColors.Control;
+            txtQuant5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant5.Location = new Point(327, 159);
+            txtQuant5.Name = "txtQuant5";
+            txtQuant5.Size = new Size(69, 25);
+            txtQuant5.TabIndex = 52;
+            txtQuant5.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox89
             // 
@@ -753,15 +742,14 @@
             textBox89.Text = "шт.";
             textBox89.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox90
+            // txtName5
             // 
-            textBox90.BackColor = SystemColors.Control;
-            textBox90.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox90.Location = new Point(49, 159);
-            textBox90.Name = "textBox90";
-            textBox90.Size = new Size(211, 25);
-            textBox90.TabIndex = 50;
-            textBox90.Text = "Ґрунт Тифенґрунт 5кг";
+            txtName5.BackColor = SystemColors.Control;
+            txtName5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName5.Location = new Point(49, 159);
+            txtName5.Name = "txtName5";
+            txtName5.Size = new Size(211, 25);
+            txtName5.TabIndex = 50;
             // 
             // textBox31
             // 
@@ -773,81 +761,75 @@
             textBox31.TabIndex = 49;
             textBox31.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox32
+            // txtId4
             // 
-            textBox32.BackColor = SystemColors.Control;
-            textBox32.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox32.Location = new Point(2, 128);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(48, 25);
-            textBox32.TabIndex = 48;
-            textBox32.Text = "43657";
-            textBox32.TextAlign = HorizontalAlignment.Center;
+            txtId4.BackColor = SystemColors.Control;
+            txtId4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId4.Location = new Point(2, 128);
+            txtId4.Name = "txtId4";
+            txtId4.Size = new Size(48, 25);
+            txtId4.TabIndex = 48;
+            txtId4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox33
+            // txtPriceProd4
             // 
-            textBox33.BackColor = SystemColors.Control;
-            textBox33.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox33.Location = new Point(727, 128);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(98, 25);
-            textBox33.TabIndex = 47;
-            textBox33.Text = "1120.00";
-            textBox33.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd4.BackColor = SystemColors.Control;
+            txtPriceProd4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd4.Location = new Point(727, 128);
+            txtPriceProd4.Name = "txtPriceProd4";
+            txtPriceProd4.Size = new Size(98, 25);
+            txtPriceProd4.TabIndex = 47;
+            txtPriceProd4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox34
+            // txtPercOpt4
             // 
-            textBox34.BackColor = SystemColors.Control;
-            textBox34.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox34.Location = new Point(666, 128);
-            textBox34.Name = "textBox34";
-            textBox34.Size = new Size(60, 25);
-            textBox34.TabIndex = 46;
-            textBox34.Text = "21.1";
-            textBox34.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt4.BackColor = SystemColors.Control;
+            txtPercOpt4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt4.Location = new Point(666, 128);
+            txtPercOpt4.Name = "txtPercOpt4";
+            txtPercOpt4.Size = new Size(60, 25);
+            txtPercOpt4.TabIndex = 46;
+            txtPercOpt4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox35
+            // txtPriceOpt4
             // 
-            textBox35.BackColor = SystemColors.Control;
-            textBox35.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox35.Location = new Point(565, 128);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(101, 25);
-            textBox35.TabIndex = 45;
-            textBox35.Text = "1015.00";
-            textBox35.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt4.BackColor = SystemColors.Control;
+            txtPriceOpt4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt4.Location = new Point(565, 128);
+            txtPriceOpt4.Name = "txtPriceOpt4";
+            txtPriceOpt4.Size = new Size(101, 25);
+            txtPriceOpt4.TabIndex = 45;
+            txtPriceOpt4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox36
+            // txtPercZakup4
             // 
-            textBox36.BackColor = SystemColors.Control;
-            textBox36.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox36.Location = new Point(498, 128);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(68, 25);
-            textBox36.TabIndex = 44;
-            textBox36.Text = "9.8";
-            textBox36.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup4.BackColor = SystemColors.Control;
+            txtPercZakup4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup4.Location = new Point(498, 128);
+            txtPercZakup4.Name = "txtPercZakup4";
+            txtPercZakup4.Size = new Size(68, 25);
+            txtPercZakup4.TabIndex = 44;
+            txtPercZakup4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox37
+            // txtPriceZakup4
             // 
-            textBox37.BackColor = SystemColors.Control;
-            textBox37.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox37.Location = new Point(397, 128);
-            textBox37.Name = "textBox37";
-            textBox37.Size = new Size(102, 25);
-            textBox37.TabIndex = 43;
-            textBox37.Text = "924.50";
-            textBox37.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup4.BackColor = SystemColors.Control;
+            txtPriceZakup4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup4.Location = new Point(397, 128);
+            txtPriceZakup4.Name = "txtPriceZakup4";
+            txtPriceZakup4.Size = new Size(102, 25);
+            txtPriceZakup4.TabIndex = 43;
+            txtPriceZakup4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox38
+            // txtQuant4
             // 
-            textBox38.BackColor = SystemColors.Control;
-            textBox38.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox38.Location = new Point(327, 128);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(69, 25);
-            textBox38.TabIndex = 42;
-            textBox38.TextAlign = HorizontalAlignment.Center;
+            txtQuant4.BackColor = SystemColors.Control;
+            txtQuant4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant4.Location = new Point(327, 128);
+            txtQuant4.Name = "txtQuant4";
+            txtQuant4.Size = new Size(69, 25);
+            txtQuant4.TabIndex = 42;
+            txtQuant4.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox39
             // 
@@ -860,15 +842,14 @@
             textBox39.Text = "шт.";
             textBox39.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox40
+            // txtName4
             // 
-            textBox40.BackColor = SystemColors.Control;
-            textBox40.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox40.Location = new Point(49, 128);
-            textBox40.Name = "textBox40";
-            textBox40.Size = new Size(211, 25);
-            textBox40.TabIndex = 40;
-            textBox40.Text = "Ґрунт Бетоконтакт 20кг";
+            txtName4.BackColor = SystemColors.Control;
+            txtName4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName4.Location = new Point(49, 128);
+            txtName4.Name = "txtName4";
+            txtName4.Size = new Size(211, 25);
+            txtName4.TabIndex = 40;
             // 
             // textBox41
             // 
@@ -881,80 +862,75 @@
             textBox41.Text = "прострочен";
             textBox41.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox42
+            // txtId3
             // 
-            textBox42.BackColor = SystemColors.Control;
-            textBox42.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox42.Location = new Point(2, 96);
-            textBox42.Name = "textBox42";
-            textBox42.Size = new Size(48, 25);
-            textBox42.TabIndex = 38;
-            textBox42.Text = "43610";
-            textBox42.TextAlign = HorizontalAlignment.Center;
+            txtId3.BackColor = SystemColors.Control;
+            txtId3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId3.Location = new Point(2, 96);
+            txtId3.Name = "txtId3";
+            txtId3.Size = new Size(48, 25);
+            txtId3.TabIndex = 38;
+            txtId3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox43
+            // txtPriceProd3
             // 
-            textBox43.BackColor = SystemColors.Control;
-            textBox43.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox43.Location = new Point(727, 96);
-            textBox43.Name = "textBox43";
-            textBox43.Size = new Size(98, 25);
-            textBox43.TabIndex = 37;
-            textBox43.Text = "280";
-            textBox43.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd3.BackColor = SystemColors.Control;
+            txtPriceProd3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd3.Location = new Point(727, 96);
+            txtPriceProd3.Name = "txtPriceProd3";
+            txtPriceProd3.Size = new Size(98, 25);
+            txtPriceProd3.TabIndex = 37;
+            txtPriceProd3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox44
+            // txtPercOpt3
             // 
-            textBox44.BackColor = SystemColors.Control;
-            textBox44.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox44.Location = new Point(666, 96);
-            textBox44.Name = "textBox44";
-            textBox44.Size = new Size(60, 25);
-            textBox44.TabIndex = 36;
-            textBox44.Text = "3.7";
-            textBox44.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt3.BackColor = SystemColors.Control;
+            txtPercOpt3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt3.Location = new Point(666, 96);
+            txtPercOpt3.Name = "txtPercOpt3";
+            txtPercOpt3.Size = new Size(60, 25);
+            txtPercOpt3.TabIndex = 36;
+            txtPercOpt3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox45
+            // txtPriceOpt3
             // 
-            textBox45.BackColor = SystemColors.Control;
-            textBox45.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox45.Location = new Point(565, 96);
-            textBox45.Name = "textBox45";
-            textBox45.Size = new Size(101, 25);
-            textBox45.TabIndex = 35;
-            textBox45.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt3.BackColor = SystemColors.Control;
+            txtPriceOpt3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt3.Location = new Point(565, 96);
+            txtPriceOpt3.Name = "txtPriceOpt3";
+            txtPriceOpt3.Size = new Size(101, 25);
+            txtPriceOpt3.TabIndex = 35;
+            txtPriceOpt3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox46
+            // txtPercZakup3
             // 
-            textBox46.BackColor = SystemColors.Control;
-            textBox46.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox46.Location = new Point(498, 96);
-            textBox46.Name = "textBox46";
-            textBox46.Size = new Size(68, 25);
-            textBox46.TabIndex = 34;
-            textBox46.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup3.BackColor = SystemColors.Control;
+            txtPercZakup3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup3.Location = new Point(498, 96);
+            txtPercZakup3.Name = "txtPercZakup3";
+            txtPercZakup3.Size = new Size(68, 25);
+            txtPercZakup3.TabIndex = 34;
+            txtPercZakup3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox47
+            // txtPriceZakup3
             // 
-            textBox47.BackColor = SystemColors.Control;
-            textBox47.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox47.Location = new Point(397, 96);
-            textBox47.Name = "textBox47";
-            textBox47.Size = new Size(102, 25);
-            textBox47.TabIndex = 33;
-            textBox47.Text = "270";
-            textBox47.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup3.BackColor = SystemColors.Control;
+            txtPriceZakup3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup3.Location = new Point(397, 96);
+            txtPriceZakup3.Name = "txtPriceZakup3";
+            txtPriceZakup3.Size = new Size(102, 25);
+            txtPriceZakup3.TabIndex = 33;
+            txtPriceZakup3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox48
+            // txtQuant3
             // 
-            textBox48.BackColor = SystemColors.Control;
-            textBox48.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox48.Location = new Point(327, 96);
-            textBox48.Name = "textBox48";
-            textBox48.Size = new Size(69, 25);
-            textBox48.TabIndex = 32;
-            textBox48.Text = "1";
-            textBox48.TextAlign = HorizontalAlignment.Center;
+            txtQuant3.BackColor = SystemColors.Control;
+            txtQuant3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant3.Location = new Point(327, 96);
+            txtQuant3.Name = "txtQuant3";
+            txtQuant3.Size = new Size(69, 25);
+            txtQuant3.TabIndex = 32;
+            txtQuant3.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox49
             // 
@@ -967,15 +943,14 @@
             textBox49.Text = "шт.";
             textBox49.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox50
+            // txtName3
             // 
-            textBox50.BackColor = SystemColors.Control;
-            textBox50.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox50.Location = new Point(49, 96);
-            textBox50.Name = "textBox50";
-            textBox50.Size = new Size(211, 25);
-            textBox50.TabIndex = 30;
-            textBox50.Text = "Ґрунт Бетоконтакт 5кг";
+            txtName3.BackColor = SystemColors.Control;
+            txtName3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName3.Location = new Point(49, 96);
+            txtName3.Name = "txtName3";
+            txtName3.Size = new Size(211, 25);
+            txtName3.TabIndex = 30;
             // 
             // textBox21
             // 
@@ -987,82 +962,75 @@
             textBox21.TabIndex = 29;
             textBox21.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox22
+            // txtId2
             // 
-            textBox22.BackColor = SystemColors.Control;
-            textBox22.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox22.Location = new Point(2, 63);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(48, 25);
-            textBox22.TabIndex = 28;
-            textBox22.Text = "939";
-            textBox22.TextAlign = HorizontalAlignment.Center;
+            txtId2.BackColor = SystemColors.Control;
+            txtId2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId2.Location = new Point(2, 63);
+            txtId2.Name = "txtId2";
+            txtId2.Size = new Size(48, 25);
+            txtId2.TabIndex = 28;
+            txtId2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox23
+            // txtPriceProd2
             // 
-            textBox23.BackColor = SystemColors.Control;
-            textBox23.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox23.Location = new Point(727, 63);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(98, 25);
-            textBox23.TabIndex = 27;
-            textBox23.Text = "198.00";
-            textBox23.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd2.BackColor = SystemColors.Control;
+            txtPriceProd2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd2.Location = new Point(727, 63);
+            txtPriceProd2.Name = "txtPriceProd2";
+            txtPriceProd2.Size = new Size(98, 25);
+            txtPriceProd2.TabIndex = 27;
+            txtPriceProd2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox24
+            // txtPercOpt2
             // 
-            textBox24.BackColor = SystemColors.Control;
-            textBox24.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox24.Location = new Point(666, 63);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(60, 25);
-            textBox24.TabIndex = 26;
-            textBox24.Text = "21.1";
-            textBox24.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt2.BackColor = SystemColors.Control;
+            txtPercOpt2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt2.Location = new Point(666, 63);
+            txtPercOpt2.Name = "txtPercOpt2";
+            txtPercOpt2.Size = new Size(60, 25);
+            txtPercOpt2.TabIndex = 26;
+            txtPercOpt2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox25
+            // txtPriceOpt2
             // 
-            textBox25.BackColor = SystemColors.Control;
-            textBox25.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox25.Location = new Point(565, 63);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(101, 25);
-            textBox25.TabIndex = 25;
-            textBox25.Text = "180.00";
-            textBox25.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt2.BackColor = SystemColors.Control;
+            txtPriceOpt2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt2.Location = new Point(565, 63);
+            txtPriceOpt2.Name = "txtPriceOpt2";
+            txtPriceOpt2.Size = new Size(101, 25);
+            txtPriceOpt2.TabIndex = 25;
+            txtPriceOpt2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox26
+            // txtPercZakup2
             // 
-            textBox26.BackColor = SystemColors.Control;
-            textBox26.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox26.Location = new Point(498, 63);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(68, 25);
-            textBox26.TabIndex = 24;
-            textBox26.Text = "10.1";
-            textBox26.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup2.BackColor = SystemColors.Control;
+            txtPercZakup2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup2.Location = new Point(498, 63);
+            txtPercZakup2.Name = "txtPercZakup2";
+            txtPercZakup2.Size = new Size(68, 25);
+            txtPercZakup2.TabIndex = 24;
+            txtPercZakup2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox27
+            // txtPriceZakup2
             // 
-            textBox27.BackColor = SystemColors.Control;
-            textBox27.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox27.Location = new Point(397, 63);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(102, 25);
-            textBox27.TabIndex = 23;
-            textBox27.Text = "163.55";
-            textBox27.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup2.BackColor = SystemColors.Control;
+            txtPriceZakup2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup2.Location = new Point(397, 63);
+            txtPriceZakup2.Name = "txtPriceZakup2";
+            txtPriceZakup2.Size = new Size(102, 25);
+            txtPriceZakup2.TabIndex = 23;
+            txtPriceZakup2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox28
+            // txtQuant2
             // 
-            textBox28.BackColor = SystemColors.Control;
-            textBox28.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox28.Location = new Point(327, 63);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(69, 25);
-            textBox28.TabIndex = 22;
-            textBox28.Text = "4";
-            textBox28.TextAlign = HorizontalAlignment.Center;
+            txtQuant2.BackColor = SystemColors.Control;
+            txtQuant2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant2.Location = new Point(327, 63);
+            txtQuant2.Name = "txtQuant2";
+            txtQuant2.Size = new Size(69, 25);
+            txtQuant2.TabIndex = 22;
+            txtQuant2.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox29
             // 
@@ -1075,15 +1043,14 @@
             textBox29.Text = "шт.";
             textBox29.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox30
+            // txtName2
             // 
-            textBox30.BackColor = SystemColors.Control;
-            textBox30.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox30.Location = new Point(49, 63);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(211, 25);
-            textBox30.TabIndex = 20;
-            textBox30.Text = "Базисґрунт 10кг";
+            txtName2.BackColor = SystemColors.Control;
+            txtName2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName2.Location = new Point(49, 63);
+            txtName2.Name = "txtName2";
+            txtName2.Size = new Size(211, 25);
+            txtName2.TabIndex = 20;
             // 
             // textBox11
             // 
@@ -1096,82 +1063,75 @@
             textBox11.Text = "1 брак";
             textBox11.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox12
+            // txtId1
             // 
-            textBox12.BackColor = SystemColors.Control;
-            textBox12.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox12.Location = new Point(2, 31);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(48, 25);
-            textBox12.TabIndex = 18;
-            textBox12.Text = "937";
-            textBox12.TextAlign = HorizontalAlignment.Center;
+            txtId1.BackColor = SystemColors.Control;
+            txtId1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId1.Location = new Point(2, 31);
+            txtId1.Name = "txtId1";
+            txtId1.Size = new Size(48, 25);
+            txtId1.TabIndex = 18;
+            txtId1.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox13
+            // txtPriceProd1
             // 
-            textBox13.BackColor = SystemColors.Control;
-            textBox13.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox13.Location = new Point(727, 31);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(98, 25);
-            textBox13.TabIndex = 17;
-            textBox13.Text = "112.00";
-            textBox13.TextAlign = HorizontalAlignment.Center;
+            txtPriceProd1.BackColor = SystemColors.Control;
+            txtPriceProd1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd1.Location = new Point(727, 31);
+            txtPriceProd1.Name = "txtPriceProd1";
+            txtPriceProd1.Size = new Size(98, 25);
+            txtPriceProd1.TabIndex = 17;
+            txtPriceProd1.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox14
+            // txtPercOpt1
             // 
-            textBox14.BackColor = SystemColors.Control;
-            textBox14.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox14.Location = new Point(666, 31);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(60, 25);
-            textBox14.TabIndex = 16;
-            textBox14.Text = "20.6";
-            textBox14.TextAlign = HorizontalAlignment.Center;
+            txtPercOpt1.BackColor = SystemColors.Control;
+            txtPercOpt1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt1.Location = new Point(666, 31);
+            txtPercOpt1.Name = "txtPercOpt1";
+            txtPercOpt1.Size = new Size(60, 25);
+            txtPercOpt1.TabIndex = 16;
+            txtPercOpt1.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox15
+            // txtPriceOpt1
             // 
-            textBox15.BackColor = SystemColors.Control;
-            textBox15.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox15.Location = new Point(565, 31);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(101, 25);
-            textBox15.TabIndex = 15;
-            textBox15.Text = "102.00";
-            textBox15.TextAlign = HorizontalAlignment.Center;
+            txtPriceOpt1.BackColor = SystemColors.Control;
+            txtPriceOpt1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt1.Location = new Point(565, 31);
+            txtPriceOpt1.Name = "txtPriceOpt1";
+            txtPriceOpt1.Size = new Size(101, 25);
+            txtPriceOpt1.TabIndex = 15;
+            txtPriceOpt1.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox16
+            // txtPercZakup1
             // 
-            textBox16.BackColor = SystemColors.Control;
-            textBox16.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox16.Location = new Point(498, 31);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(68, 25);
-            textBox16.TabIndex = 14;
-            textBox16.Text = "9.9";
-            textBox16.TextAlign = HorizontalAlignment.Center;
+            txtPercZakup1.BackColor = SystemColors.Control;
+            txtPercZakup1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup1.Location = new Point(498, 31);
+            txtPercZakup1.Name = "txtPercZakup1";
+            txtPercZakup1.Size = new Size(68, 25);
+            txtPercZakup1.TabIndex = 14;
+            txtPercZakup1.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox17
+            // txtPriceZakup1
             // 
-            textBox17.BackColor = SystemColors.Control;
-            textBox17.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox17.Location = new Point(397, 31);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(102, 25);
-            textBox17.TabIndex = 13;
-            textBox17.Text = "92.85";
-            textBox17.TextAlign = HorizontalAlignment.Center;
+            txtPriceZakup1.BackColor = SystemColors.Control;
+            txtPriceZakup1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup1.Location = new Point(397, 31);
+            txtPriceZakup1.Name = "txtPriceZakup1";
+            txtPriceZakup1.Size = new Size(102, 25);
+            txtPriceZakup1.TabIndex = 13;
+            txtPriceZakup1.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox18
+            // txtQuant1
             // 
-            textBox18.BackColor = SystemColors.Control;
-            textBox18.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox18.Location = new Point(327, 31);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(69, 25);
-            textBox18.TabIndex = 12;
-            textBox18.Text = "6";
-            textBox18.TextAlign = HorizontalAlignment.Center;
+            txtQuant1.BackColor = SystemColors.Control;
+            txtQuant1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant1.Location = new Point(327, 31);
+            txtQuant1.Name = "txtQuant1";
+            txtQuant1.Size = new Size(69, 25);
+            txtQuant1.TabIndex = 12;
+            txtQuant1.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox19
             // 
@@ -1184,15 +1144,14 @@
             textBox19.Text = "шт.";
             textBox19.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox20
+            // txtName1
             // 
-            textBox20.BackColor = SystemColors.Control;
-            textBox20.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            textBox20.Location = new Point(49, 31);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(211, 25);
-            textBox20.TabIndex = 10;
-            textBox20.Text = "Базисґрунт 5кг";
+            txtName1.BackColor = SystemColors.Control;
+            txtName1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName1.Location = new Point(49, 31);
+            txtName1.Name = "txtName1";
+            txtName1.Size = new Size(211, 25);
+            txtName1.TabIndex = 10;
             // 
             // textBox10
             // 
@@ -1310,37 +1269,37 @@
             panel1.Controls.Add(hScrollBar1);
             panel1.Controls.Add(vScrollBar2);
             panel1.Controls.Add(button27);
-            panel1.Controls.Add(button25);
+            panel1.Controls.Add(btnMenu4);
             panel1.Controls.Add(button26);
             panel1.Controls.Add(button45);
-            panel1.Controls.Add(button46);
-            panel1.Controls.Add(button47);
+            panel1.Controls.Add(btnMenu3);
+            panel1.Controls.Add(btnMenu2);
             panel1.Controls.Add(button15);
             panel1.Controls.Add(button33);
             panel1.Controls.Add(button34);
             panel1.Controls.Add(button35);
             panel1.Controls.Add(button36);
             panel1.Controls.Add(button37);
-            panel1.Controls.Add(button38);
+            panel1.Controls.Add(btnMenu10);
             panel1.Controls.Add(button39);
             panel1.Controls.Add(button40);
-            panel1.Controls.Add(button41);
-            panel1.Controls.Add(button42);
-            panel1.Controls.Add(button43);
+            panel1.Controls.Add(btnMenu7);
+            panel1.Controls.Add(btnMenu9);
+            panel1.Controls.Add(btnMenu8);
             panel1.Controls.Add(button44);
             panel1.Controls.Add(button31);
-            panel1.Controls.Add(button32);
+            panel1.Controls.Add(btnMenu6);
             panel1.Controls.Add(button29);
-            panel1.Controls.Add(button30);
+            panel1.Controls.Add(btnMenu5);
             panel1.Controls.Add(button28);
-            panel1.Controls.Add(button21);
+            panel1.Controls.Add(btnMenu1);
             panel1.Controls.Add(button23);
             panel1.Controls.Add(button22);
             panel1.Controls.Add(button20);
             panel1.Controls.Add(button17);
             panel1.Location = new Point(0, 96);
             panel1.Name = "panel1";
-            panel1.Size = new Size(159, 472);
+            panel1.Size = new Size(185, 515);
             panel1.TabIndex = 33;
             // 
             // hScrollBar1
@@ -1373,21 +1332,20 @@
             button27.TextAlign = ContentAlignment.MiddleRight;
             button27.UseVisualStyleBackColor = true;
             // 
-            // button25
+            // btnMenu4
             // 
-            button25.BackgroundImage = (Image)resources.GetObject("button25.BackgroundImage");
-            button25.BackgroundImageLayout = ImageLayout.None;
-            button25.Cursor = Cursors.Hand;
-            button25.FlatAppearance.BorderColor = Color.White;
-            button25.FlatAppearance.BorderSize = 0;
-            button25.FlatStyle = FlatStyle.Flat;
-            button25.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button25.Location = new Point(43, 228);
-            button25.Name = "button25";
-            button25.Size = new Size(125, 26);
-            button25.TabIndex = 38;
-            button25.Text = "Утеплювачі";
-            button25.UseVisualStyleBackColor = true;
+            btnMenu4.BackgroundImage = (Image)resources.GetObject("btnMenu4.BackgroundImage");
+            btnMenu4.BackgroundImageLayout = ImageLayout.None;
+            btnMenu4.Cursor = Cursors.Hand;
+            btnMenu4.FlatAppearance.BorderColor = Color.White;
+            btnMenu4.FlatAppearance.BorderSize = 0;
+            btnMenu4.FlatStyle = FlatStyle.Flat;
+            btnMenu4.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu4.Location = new Point(43, 228);
+            btnMenu4.Name = "btnMenu4";
+            btnMenu4.Size = new Size(125, 26);
+            btnMenu4.TabIndex = 38;
+            btnMenu4.UseVisualStyleBackColor = true;
             // 
             // button26
             // 
@@ -1421,37 +1379,35 @@
             button45.TextAlign = ContentAlignment.MiddleRight;
             button45.UseVisualStyleBackColor = true;
             // 
-            // button46
+            // btnMenu3
             // 
-            button46.BackgroundImage = (Image)resources.GetObject("button46.BackgroundImage");
-            button46.BackgroundImageLayout = ImageLayout.None;
-            button46.Cursor = Cursors.Hand;
-            button46.FlatAppearance.BorderColor = Color.White;
-            button46.FlatAppearance.BorderSize = 0;
-            button46.FlatStyle = FlatStyle.Flat;
-            button46.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button46.Location = new Point(43, 198);
-            button46.Name = "button46";
-            button46.Size = new Size(111, 26);
-            button46.TabIndex = 35;
-            button46.Text = "Зенит";
-            button46.UseVisualStyleBackColor = true;
+            btnMenu3.BackgroundImage = (Image)resources.GetObject("btnMenu3.BackgroundImage");
+            btnMenu3.BackgroundImageLayout = ImageLayout.None;
+            btnMenu3.Cursor = Cursors.Hand;
+            btnMenu3.FlatAppearance.BorderColor = Color.White;
+            btnMenu3.FlatAppearance.BorderSize = 0;
+            btnMenu3.FlatStyle = FlatStyle.Flat;
+            btnMenu3.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu3.Location = new Point(43, 198);
+            btnMenu3.Name = "btnMenu3";
+            btnMenu3.Size = new Size(111, 26);
+            btnMenu3.TabIndex = 35;
+            btnMenu3.UseVisualStyleBackColor = true;
             // 
-            // button47
+            // btnMenu2
             // 
-            button47.BackgroundImage = (Image)resources.GetObject("button47.BackgroundImage");
-            button47.BackgroundImageLayout = ImageLayout.None;
-            button47.Cursor = Cursors.Hand;
-            button47.FlatAppearance.BorderColor = Color.White;
-            button47.FlatAppearance.BorderSize = 0;
-            button47.FlatStyle = FlatStyle.Flat;
-            button47.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button47.Location = new Point(43, 168);
-            button47.Name = "button47";
-            button47.Size = new Size(111, 26);
-            button47.TabIndex = 34;
-            button47.Text = "Церезит";
-            button47.UseVisualStyleBackColor = true;
+            btnMenu2.BackgroundImage = (Image)resources.GetObject("btnMenu2.BackgroundImage");
+            btnMenu2.BackgroundImageLayout = ImageLayout.None;
+            btnMenu2.Cursor = Cursors.Hand;
+            btnMenu2.FlatAppearance.BorderColor = Color.White;
+            btnMenu2.FlatAppearance.BorderSize = 0;
+            btnMenu2.FlatStyle = FlatStyle.Flat;
+            btnMenu2.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu2.Location = new Point(43, 168);
+            btnMenu2.Name = "btnMenu2";
+            btnMenu2.Size = new Size(111, 26);
+            btnMenu2.TabIndex = 34;
+            btnMenu2.UseVisualStyleBackColor = true;
             // 
             // button15
             // 
@@ -1549,21 +1505,20 @@
             button37.TextAlign = ContentAlignment.MiddleRight;
             button37.UseVisualStyleBackColor = true;
             // 
-            // button38
+            // btnMenu10
             // 
-            button38.BackgroundImage = (Image)resources.GetObject("button38.BackgroundImage");
-            button38.BackgroundImageLayout = ImageLayout.None;
-            button38.Cursor = Cursors.Hand;
-            button38.FlatAppearance.BorderColor = Color.White;
-            button38.FlatAppearance.BorderSize = 0;
-            button38.FlatStyle = FlatStyle.Flat;
-            button38.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button38.Location = new Point(43, 414);
-            button38.Name = "button38";
-            button38.Size = new Size(125, 26);
-            button38.TabIndex = 27;
-            button38.Text = "Шпаклівка";
-            button38.UseVisualStyleBackColor = true;
+            btnMenu10.BackgroundImage = (Image)resources.GetObject("btnMenu10.BackgroundImage");
+            btnMenu10.BackgroundImageLayout = ImageLayout.None;
+            btnMenu10.Cursor = Cursors.Hand;
+            btnMenu10.FlatAppearance.BorderColor = Color.White;
+            btnMenu10.FlatAppearance.BorderSize = 0;
+            btnMenu10.FlatStyle = FlatStyle.Flat;
+            btnMenu10.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu10.Location = new Point(43, 414);
+            btnMenu10.Name = "btnMenu10";
+            btnMenu10.Size = new Size(125, 26);
+            btnMenu10.TabIndex = 27;
+            btnMenu10.UseVisualStyleBackColor = true;
             // 
             // button39
             // 
@@ -1597,53 +1552,50 @@
             button40.TextAlign = ContentAlignment.MiddleRight;
             button40.UseVisualStyleBackColor = true;
             // 
-            // button41
+            // btnMenu7
             // 
-            button41.BackgroundImage = (Image)resources.GetObject("button41.BackgroundImage");
-            button41.BackgroundImageLayout = ImageLayout.None;
-            button41.Cursor = Cursors.Hand;
-            button41.FlatAppearance.BorderColor = Color.White;
-            button41.FlatAppearance.BorderSize = 0;
-            button41.FlatStyle = FlatStyle.Flat;
-            button41.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button41.Location = new Point(43, 322);
-            button41.Name = "button41";
-            button41.Size = new Size(111, 26);
-            button41.TabIndex = 21;
-            button41.Text = "Полісан";
-            button41.UseVisualStyleBackColor = true;
+            btnMenu7.BackgroundImage = (Image)resources.GetObject("btnMenu7.BackgroundImage");
+            btnMenu7.BackgroundImageLayout = ImageLayout.None;
+            btnMenu7.Cursor = Cursors.Hand;
+            btnMenu7.FlatAppearance.BorderColor = Color.White;
+            btnMenu7.FlatAppearance.BorderSize = 0;
+            btnMenu7.FlatStyle = FlatStyle.Flat;
+            btnMenu7.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu7.Location = new Point(43, 322);
+            btnMenu7.Name = "btnMenu7";
+            btnMenu7.Size = new Size(111, 26);
+            btnMenu7.TabIndex = 21;
+            btnMenu7.UseVisualStyleBackColor = true;
             // 
-            // button42
+            // btnMenu9
             // 
-            button42.BackgroundImage = (Image)resources.GetObject("button42.BackgroundImage");
-            button42.BackgroundImageLayout = ImageLayout.None;
-            button42.Cursor = Cursors.Hand;
-            button42.FlatAppearance.BorderColor = Color.White;
-            button42.FlatAppearance.BorderSize = 0;
-            button42.FlatStyle = FlatStyle.Flat;
-            button42.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button42.Location = new Point(43, 384);
-            button42.Name = "button42";
-            button42.Size = new Size(111, 26);
-            button42.TabIndex = 23;
-            button42.Text = "Газобетон";
-            button42.UseVisualStyleBackColor = true;
+            btnMenu9.BackgroundImage = (Image)resources.GetObject("btnMenu9.BackgroundImage");
+            btnMenu9.BackgroundImageLayout = ImageLayout.None;
+            btnMenu9.Cursor = Cursors.Hand;
+            btnMenu9.FlatAppearance.BorderColor = Color.White;
+            btnMenu9.FlatAppearance.BorderSize = 0;
+            btnMenu9.FlatStyle = FlatStyle.Flat;
+            btnMenu9.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu9.Location = new Point(43, 384);
+            btnMenu9.Name = "btnMenu9";
+            btnMenu9.Size = new Size(111, 26);
+            btnMenu9.TabIndex = 23;
+            btnMenu9.UseVisualStyleBackColor = true;
             // 
-            // button43
+            // btnMenu8
             // 
-            button43.BackgroundImage = (Image)resources.GetObject("button43.BackgroundImage");
-            button43.BackgroundImageLayout = ImageLayout.None;
-            button43.Cursor = Cursors.Hand;
-            button43.FlatAppearance.BorderColor = Color.White;
-            button43.FlatAppearance.BorderSize = 0;
-            button43.FlatStyle = FlatStyle.Flat;
-            button43.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button43.Location = new Point(43, 354);
-            button43.Name = "button43";
-            button43.Size = new Size(111, 26);
-            button43.TabIndex = 22;
-            button43.Text = "Двері";
-            button43.UseVisualStyleBackColor = true;
+            btnMenu8.BackgroundImage = (Image)resources.GetObject("btnMenu8.BackgroundImage");
+            btnMenu8.BackgroundImageLayout = ImageLayout.None;
+            btnMenu8.Cursor = Cursors.Hand;
+            btnMenu8.FlatAppearance.BorderColor = Color.White;
+            btnMenu8.FlatAppearance.BorderSize = 0;
+            btnMenu8.FlatStyle = FlatStyle.Flat;
+            btnMenu8.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu8.Location = new Point(43, 354);
+            btnMenu8.Name = "btnMenu8";
+            btnMenu8.Size = new Size(111, 26);
+            btnMenu8.TabIndex = 22;
+            btnMenu8.UseVisualStyleBackColor = true;
             // 
             // button44
             // 
@@ -1677,21 +1629,20 @@
             button31.TextAlign = ContentAlignment.MiddleRight;
             button31.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // btnMenu6
             // 
-            button32.BackgroundImage = (Image)resources.GetObject("button32.BackgroundImage");
-            button32.BackgroundImageLayout = ImageLayout.None;
-            button32.Cursor = Cursors.Hand;
-            button32.FlatAppearance.BorderColor = Color.White;
-            button32.FlatAppearance.BorderSize = 0;
-            button32.FlatStyle = FlatStyle.Flat;
-            button32.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button32.Location = new Point(43, 292);
-            button32.Name = "button32";
-            button32.Size = new Size(111, 26);
-            button32.TabIndex = 19;
-            button32.Text = "Клей";
-            button32.UseVisualStyleBackColor = true;
+            btnMenu6.BackgroundImage = (Image)resources.GetObject("btnMenu6.BackgroundImage");
+            btnMenu6.BackgroundImageLayout = ImageLayout.None;
+            btnMenu6.Cursor = Cursors.Hand;
+            btnMenu6.FlatAppearance.BorderColor = Color.White;
+            btnMenu6.FlatAppearance.BorderSize = 0;
+            btnMenu6.FlatStyle = FlatStyle.Flat;
+            btnMenu6.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu6.Location = new Point(43, 292);
+            btnMenu6.Name = "btnMenu6";
+            btnMenu6.Size = new Size(111, 26);
+            btnMenu6.TabIndex = 19;
+            btnMenu6.UseVisualStyleBackColor = true;
             // 
             // button29
             // 
@@ -1709,21 +1660,20 @@
             button29.TextAlign = ContentAlignment.MiddleRight;
             button29.UseVisualStyleBackColor = true;
             // 
-            // button30
+            // btnMenu5
             // 
-            button30.BackgroundImage = (Image)resources.GetObject("button30.BackgroundImage");
-            button30.BackgroundImageLayout = ImageLayout.None;
-            button30.Cursor = Cursors.Hand;
-            button30.FlatAppearance.BorderColor = Color.White;
-            button30.FlatAppearance.BorderSize = 0;
-            button30.FlatStyle = FlatStyle.Flat;
-            button30.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button30.Location = new Point(43, 260);
-            button30.Name = "button30";
-            button30.Size = new Size(111, 26);
-            button30.TabIndex = 17;
-            button30.Text = "Полімін";
-            button30.UseVisualStyleBackColor = true;
+            btnMenu5.BackgroundImage = (Image)resources.GetObject("btnMenu5.BackgroundImage");
+            btnMenu5.BackgroundImageLayout = ImageLayout.None;
+            btnMenu5.Cursor = Cursors.Hand;
+            btnMenu5.FlatAppearance.BorderColor = Color.White;
+            btnMenu5.FlatAppearance.BorderSize = 0;
+            btnMenu5.FlatStyle = FlatStyle.Flat;
+            btnMenu5.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu5.Location = new Point(43, 260);
+            btnMenu5.Name = "btnMenu5";
+            btnMenu5.Size = new Size(111, 26);
+            btnMenu5.TabIndex = 17;
+            btnMenu5.UseVisualStyleBackColor = true;
             // 
             // button28
             // 
@@ -1741,21 +1691,20 @@
             button28.Text = "Сухі суміші";
             button28.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // btnMenu1
             // 
-            button21.BackgroundImage = (Image)resources.GetObject("button21.BackgroundImage");
-            button21.BackgroundImageLayout = ImageLayout.None;
-            button21.Cursor = Cursors.Hand;
-            button21.FlatAppearance.BorderColor = Color.White;
-            button21.FlatAppearance.BorderSize = 0;
-            button21.FlatStyle = FlatStyle.Flat;
-            button21.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button21.Location = new Point(43, 34);
-            button21.Name = "button21";
-            button21.Size = new Size(111, 26);
-            button21.TabIndex = 9;
-            button21.Text = "КНАУФ";
-            button21.UseVisualStyleBackColor = true;
+            btnMenu1.BackgroundImage = (Image)resources.GetObject("btnMenu1.BackgroundImage");
+            btnMenu1.BackgroundImageLayout = ImageLayout.None;
+            btnMenu1.Cursor = Cursors.Hand;
+            btnMenu1.FlatAppearance.BorderColor = Color.White;
+            btnMenu1.FlatAppearance.BorderSize = 0;
+            btnMenu1.FlatStyle = FlatStyle.Flat;
+            btnMenu1.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu1.Location = new Point(43, 34);
+            btnMenu1.Name = "btnMenu1";
+            btnMenu1.Size = new Size(111, 26);
+            btnMenu1.TabIndex = 9;
+            btnMenu1.UseVisualStyleBackColor = true;
             // 
             // button23
             // 
@@ -2064,13 +2013,13 @@
             // товариToolStripMenuItem
             // 
             товариToolStripMenuItem.Name = "товариToolStripMenuItem";
-            товариToolStripMenuItem.Size = new Size(224, 28);
+            товариToolStripMenuItem.Size = new Size(198, 28);
             товариToolStripMenuItem.Text = "Товари";
             // 
             // контрагентиToolStripMenuItem
             // 
             контрагентиToolStripMenuItem.Name = "контрагентиToolStripMenuItem";
-            контрагентиToolStripMenuItem.Size = new Size(224, 28);
+            контрагентиToolStripMenuItem.Size = new Size(198, 28);
             контрагентиToolStripMenuItem.Text = "Контрагенти";
             // 
             // документиToolStripMenuItem
@@ -2212,6 +2161,106 @@
             взаєморахункиToolStripMenuItem.Size = new Size(300, 28);
             взаєморахункиToolStripMenuItem.Text = "Взаєморахунки";
             // 
+            // textBox12
+            // 
+            textBox12.BackColor = SystemColors.Control;
+            textBox12.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            textBox12.Location = new Point(824, 287);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(153, 25);
+            textBox12.TabIndex = 99;
+            textBox12.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtId9
+            // 
+            txtId9.BackColor = SystemColors.Control;
+            txtId9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId9.Location = new Point(2, 287);
+            txtId9.Name = "txtId9";
+            txtId9.Size = new Size(48, 25);
+            txtId9.TabIndex = 98;
+            txtId9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtPriceProd9
+            // 
+            txtPriceProd9.BackColor = SystemColors.Control;
+            txtPriceProd9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceProd9.Location = new Point(727, 287);
+            txtPriceProd9.Name = "txtPriceProd9";
+            txtPriceProd9.Size = new Size(98, 25);
+            txtPriceProd9.TabIndex = 97;
+            txtPriceProd9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtPercOpt9
+            // 
+            txtPercOpt9.BackColor = SystemColors.Control;
+            txtPercOpt9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercOpt9.Location = new Point(666, 287);
+            txtPercOpt9.Name = "txtPercOpt9";
+            txtPercOpt9.Size = new Size(60, 25);
+            txtPercOpt9.TabIndex = 96;
+            txtPercOpt9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtPriceOpt9
+            // 
+            txtPriceOpt9.BackColor = SystemColors.Control;
+            txtPriceOpt9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceOpt9.Location = new Point(565, 287);
+            txtPriceOpt9.Name = "txtPriceOpt9";
+            txtPriceOpt9.Size = new Size(101, 25);
+            txtPriceOpt9.TabIndex = 95;
+            txtPriceOpt9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtPercZakup9
+            // 
+            txtPercZakup9.BackColor = SystemColors.Control;
+            txtPercZakup9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPercZakup9.Location = new Point(498, 287);
+            txtPercZakup9.Name = "txtPercZakup9";
+            txtPercZakup9.Size = new Size(68, 25);
+            txtPercZakup9.TabIndex = 94;
+            txtPercZakup9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtPriceZakup9
+            // 
+            txtPriceZakup9.BackColor = SystemColors.Control;
+            txtPriceZakup9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtPriceZakup9.Location = new Point(397, 287);
+            txtPriceZakup9.Name = "txtPriceZakup9";
+            txtPriceZakup9.Size = new Size(102, 25);
+            txtPriceZakup9.TabIndex = 93;
+            txtPriceZakup9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtQuant9
+            // 
+            txtQuant9.BackColor = SystemColors.Control;
+            txtQuant9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtQuant9.Location = new Point(327, 287);
+            txtQuant9.Name = "txtQuant9";
+            txtQuant9.Size = new Size(69, 25);
+            txtQuant9.TabIndex = 92;
+            txtQuant9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // textBox22
+            // 
+            textBox22.BackColor = SystemColors.Control;
+            textBox22.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            textBox22.Location = new Point(259, 287);
+            textBox22.Name = "textBox22";
+            textBox22.Size = new Size(68, 25);
+            textBox22.TabIndex = 91;
+            textBox22.Text = "шт.";
+            textBox22.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtName9
+            // 
+            txtName9.BackColor = SystemColors.Control;
+            txtName9.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName9.Location = new Point(49, 287);
+            txtName9.Name = "txtName9";
+            txtName9.Size = new Size(211, 25);
+            txtName9.TabIndex = 90;
+            // 
             // Grunt
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -2224,6 +2273,7 @@
             Controls.Add(Main_Menu);
             Name = "Grunt";
             Text = "Номенклатура-КНАУФ-Ґрунт";
+            Load += Grunt_Load;
             tabs.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
@@ -2245,30 +2295,30 @@
         private HScrollBar hScrollBar1;
         private VScrollBar vScrollBar2;
         private Button button27;
-        private Button button25;
+        private Button btnMenu4;
         private Button button26;
         private Button button45;
-        private Button button46;
-        private Button button47;
+        private Button btnMenu3;
+        private Button btnMenu2;
         private Button button15;
         private Button button33;
         private Button button34;
         private Button button35;
         private Button button36;
         private Button button37;
-        private Button button38;
+        private Button btnMenu10;
         private Button button39;
         private Button button40;
-        private Button button41;
-        private Button button42;
-        private Button button43;
+        private Button btnMenu7;
+        private Button btnMenu9;
+        private Button btnMenu8;
         private Button button44;
         private Button button31;
-        private Button button32;
+        private Button btnMenu6;
         private Button button29;
-        private Button button30;
+        private Button btnMenu5;
         private Button button28;
-        private Button button21;
+        private Button btnMenu1;
         private Button button23;
         private Button button22;
         private Button button20;
@@ -2292,88 +2342,88 @@
         private TextBox textBox7;
         private TextBox textBox4;
         private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private TextBox textBox17;
-        private TextBox textBox18;
+        private TextBox txtId1;
+        private TextBox txtPriceProd1;
+        private TextBox txtPercOpt1;
+        private TextBox txtPriceOpt1;
+        private TextBox txtPercZakup1;
+        private TextBox txtPriceZakup1;
+        private TextBox txtQuant1;
         private TextBox textBox19;
-        private TextBox textBox20;
+        private TextBox txtName1;
         private TextBox textBox10;
         private TextBox textBox9;
         private TextBox textBox8;
         private TextBox textBox21;
-        private TextBox textBox22;
-        private TextBox textBox23;
-        private TextBox textBox24;
-        private TextBox textBox25;
-        private TextBox textBox26;
-        private TextBox textBox27;
-        private TextBox textBox28;
+        private TextBox txtId2;
+        private TextBox txtPriceProd2;
+        private TextBox txtPercOpt2;
+        private TextBox txtPriceOpt2;
+        private TextBox txtPercZakup2;
+        private TextBox txtPriceZakup2;
+        private TextBox txtQuant2;
         private TextBox textBox29;
-        private TextBox textBox30;
+        private TextBox txtName2;
         private TextBox textBox31;
-        private TextBox textBox32;
-        private TextBox textBox33;
-        private TextBox textBox34;
-        private TextBox textBox35;
-        private TextBox textBox36;
-        private TextBox textBox37;
-        private TextBox textBox38;
+        private TextBox txtId4;
+        private TextBox txtPriceProd4;
+        private TextBox txtPercOpt4;
+        private TextBox txtPriceOpt4;
+        private TextBox txtPercZakup4;
+        private TextBox txtPriceZakup4;
+        private TextBox txtQuant4;
         private TextBox textBox39;
-        private TextBox textBox40;
+        private TextBox txtName4;
         private TextBox textBox41;
-        private TextBox textBox42;
-        private TextBox textBox43;
-        private TextBox textBox44;
-        private TextBox textBox45;
-        private TextBox textBox46;
-        private TextBox textBox47;
-        private TextBox textBox48;
+        private TextBox txtId3;
+        private TextBox txtPriceProd3;
+        private TextBox txtPercOpt3;
+        private TextBox txtPriceOpt3;
+        private TextBox txtPercZakup3;
+        private TextBox txtPriceZakup3;
+        private TextBox txtQuant3;
         private TextBox textBox49;
-        private TextBox textBox50;
+        private TextBox txtName3;
         private TextBox textBox51;
-        private TextBox textBox52;
-        private TextBox textBox53;
-        private TextBox textBox54;
-        private TextBox textBox55;
-        private TextBox textBox56;
-        private TextBox textBox57;
-        private TextBox textBox58;
+        private TextBox txtId8;
+        private TextBox txtPriceProd8;
+        private TextBox txtPercOpt8;
+        private TextBox txtPriceOpt8;
+        private TextBox txtPercZakup8;
+        private TextBox txtPriceZakup8;
+        private TextBox txtQuant8;
         private TextBox textBox59;
-        private TextBox textBox60;
+        private TextBox txtName8;
         private TextBox textBox61;
-        private TextBox textBox62;
-        private TextBox textBox63;
-        private TextBox textBox64;
-        private TextBox textBox65;
-        private TextBox textBox66;
-        private TextBox textBox67;
-        private TextBox textBox68;
+        private TextBox txtId7;
+        private TextBox txtPriceProd7;
+        private TextBox txtPercOpt7;
+        private TextBox txtPriceOpt7;
+        private TextBox txtPercZakup7;
+        private TextBox txtPriceZakup7;
+        private TextBox txtQuant7;
         private TextBox textBox69;
-        private TextBox textBox70;
+        private TextBox txtName7;
         private TextBox textBox71;
-        private TextBox textBox72;
-        private TextBox textBox73;
-        private TextBox textBox74;
-        private TextBox textBox75;
-        private TextBox textBox76;
-        private TextBox textBox77;
-        private TextBox textBox78;
+        private TextBox txtId6;
+        private TextBox txtPriceProd6;
+        private TextBox txtPercOpt6;
+        private TextBox txtPriceOpt6;
+        private TextBox txtPercZakup6;
+        private TextBox txtPriceZakup6;
+        private TextBox txtQuant6;
         private TextBox textBox79;
-        private TextBox textBox80;
+        private TextBox txtName6;
         private TextBox textBox81;
-        private TextBox textBox82;
-        private TextBox textBox83;
-        private TextBox textBox84;
-        private TextBox textBox85;
-        private TextBox textBox86;
-        private TextBox textBox87;
-        private TextBox textBox88;
+        private TextBox txtId5;
+        private TextBox txtPriceProd5;
+        private TextBox txtPercOpt5;
+        private TextBox txtPriceOpt5;
+        private TextBox txtPercZakup5;
+        private TextBox txtPriceZakup5;
+        private TextBox txtQuant5;
         private TextBox textBox89;
-        private TextBox textBox90;
+        private TextBox txtName5;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem файлToolStripMenuItem;
         private ToolStripMenuItem новийДокументToolStripMenuItem;
@@ -2409,5 +2459,15 @@
         private ToolStripMenuItem продажіToolStripMenuItem;
         private ToolStripMenuItem партіїТоварівToolStripMenuItem;
         private ToolStripMenuItem взаєморахункиToolStripMenuItem;
+        private TextBox textBox12;
+        private TextBox txtId9;
+        private TextBox txtPriceProd9;
+        private TextBox txtPercOpt9;
+        private TextBox txtPriceOpt9;
+        private TextBox txtPercZakup9;
+        private TextBox txtPriceZakup9;
+        private TextBox txtQuant9;
+        private TextBox textBox22;
+        private TextBox txtName9;
     }
 }

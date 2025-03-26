@@ -12,7 +12,10 @@
 
         string Name { get; }
         int Quantity { get; set; }
-        decimal Price { get; }
-        void DisplayInfo();
+        int Supplier_id { get; set; }
+        decimal Price_zakup { get;}
+        decimal Price_opt { get; }
+        decimal Price_prod { get; }
+        string ToString();
     }
 }

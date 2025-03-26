@@ -13,7 +13,7 @@
     <Compile Update="Core\GUI\KNAYF.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Core\GUI\Suppliers.cs">
+    <Compile Update="Core\GUI\Kontragents.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

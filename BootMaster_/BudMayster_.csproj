@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\MySQLConnector\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Core\GUI\General.cs">
       <SubType>Form</SubType>
     </Compile>

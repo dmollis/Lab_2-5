@@ -32,7 +32,7 @@ namespace BootMaster_
 
         public static void btn_supp_Click(object sender, EventArgs e, Form currentForm)
         {
-            OpenForm(new Suppliers(), currentForm);
+            OpenForm(new Kontragents(), currentForm);
         }
 
         public static void btn_goods_Click(object sender, EventArgs e, Form currentForm)
@@ -42,7 +42,7 @@ namespace BootMaster_
 
         public static void êîíòğàãåíòèToolStripMenuItem_Click(object sender, EventArgs e, Form currentForm)
         {
-            OpenForm(new Suppliers(), currentForm);
+            OpenForm(new Kontragents(), currentForm);
         }
 
         public static void òîâàğèToolStripMenuItem_Click(object sender, EventArgs e, Form currentForm)
