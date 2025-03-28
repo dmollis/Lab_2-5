@@ -1,6 +1,6 @@
 ﻿namespace BudMayster_.Core.GUI
 {
-    partial class Goods
+    partial class Suppliers
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Goods));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Suppliers));
             menuStrip1 = new MenuStrip();
             файлToolStripMenuItem = new ToolStripMenuItem();
             новийДокументToolStripMenuItem = new ToolStripMenuItem();
@@ -65,46 +65,36 @@
             партіїТоварівToolStripMenuItem = new ToolStripMenuItem();
             взаєморахункиToolStripMenuItem = new ToolStripMenuItem();
             panel2 = new Panel();
-            btnСateg12 = new Button();
-            btnСateg11 = new Button();
-            btnСateg10 = new Button();
-            btnСateg9 = new Button();
-            btnСateg8 = new Button();
-            btnСateg7 = new Button();
-            btnСateg6 = new Button();
-            btnСateg5 = new Button();
-            btnСateg4 = new Button();
-            vScrollBar1 = new VScrollBar();
-            btnСateg3 = new Button();
-            btnСateg2 = new Button();
-            btnСateg1 = new Button();
+            txtId5 = new TextBox();
+            txtTelNumb5 = new TextBox();
+            txtName5 = new TextBox();
+            txtId6 = new TextBox();
+            txtTelNumb6 = new TextBox();
+            txtName6 = new TextBox();
+            txtId4 = new TextBox();
+            txtTelNumb4 = new TextBox();
+            txtName4 = new TextBox();
+            txtId2 = new TextBox();
+            txtTelNumb2 = new TextBox();
+            txtName2 = new TextBox();
+            txtId3 = new TextBox();
+            txtTelNumb3 = new TextBox();
+            txtName3 = new TextBox();
+            txtId1 = new TextBox();
+            txtTelNumb1 = new TextBox();
+            txtName1 = new TextBox();
+            textBox9 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             panel1 = new Panel();
-            button3 = new Button();
-            button4 = new Button();
-            btnMenu10 = new Button();
-            btnMenu12 = new Button();
-            btnMenu11 = new Button();
-            button19 = new Button();
-            button21 = new Button();
-            button22 = new Button();
-            btnMenu7 = new Button();
-            btnMenu9 = new Button();
-            btnMenu8 = new Button();
-            button29 = new Button();
             button1 = new Button();
-            button2 = new Button();
-            btnMenu4 = new Button();
-            btnMenu6 = new Button();
-            btnMenu5 = new Button();
-            button8 = new Button();
             button26 = new Button();
             button25 = new Button();
             btnMenu1 = new Button();
             btnMenu3 = new Button();
             btnMenu2 = new Button();
             button20 = new Button();
-            button17 = new Button();
-            button24 = new Button();
+            btn_kontr_menu = new Button();
             tabs = new Panel();
             button18 = new Button();
             Add_Menu = new Panel();
@@ -364,401 +354,254 @@
             // panel2
             // 
             panel2.BackColor = SystemColors.Control;
-            panel2.Controls.Add(btnСateg12);
-            panel2.Controls.Add(btnСateg11);
-            panel2.Controls.Add(btnСateg10);
-            panel2.Controls.Add(btnСateg9);
-            panel2.Controls.Add(btnСateg8);
-            panel2.Controls.Add(btnСateg7);
-            panel2.Controls.Add(btnСateg6);
-            panel2.Controls.Add(btnСateg5);
-            panel2.Controls.Add(btnСateg4);
-            panel2.Controls.Add(vScrollBar1);
-            panel2.Controls.Add(btnСateg3);
-            panel2.Controls.Add(btnСateg2);
-            panel2.Controls.Add(btnСateg1);
+            panel2.Controls.Add(txtId5);
+            panel2.Controls.Add(txtTelNumb5);
+            panel2.Controls.Add(txtName5);
+            panel2.Controls.Add(txtId6);
+            panel2.Controls.Add(txtTelNumb6);
+            panel2.Controls.Add(txtName6);
+            panel2.Controls.Add(txtId4);
+            panel2.Controls.Add(txtTelNumb4);
+            panel2.Controls.Add(txtName4);
+            panel2.Controls.Add(txtId2);
+            panel2.Controls.Add(txtTelNumb2);
+            panel2.Controls.Add(txtName2);
+            panel2.Controls.Add(txtId3);
+            panel2.Controls.Add(txtTelNumb3);
+            panel2.Controls.Add(txtName3);
+            panel2.Controls.Add(txtId1);
+            panel2.Controls.Add(txtTelNumb1);
+            panel2.Controls.Add(txtName1);
+            panel2.Controls.Add(textBox9);
+            panel2.Controls.Add(textBox2);
+            panel2.Controls.Add(textBox1);
             panel2.Location = new Point(160, 96);
             panel2.Name = "panel2";
             panel2.Size = new Size(977, 472);
             panel2.TabIndex = 17;
             // 
-            // btnСateg12
+            // txtId5
             // 
-            btnСateg12.BackgroundImage = (Image)resources.GetObject("btnСateg12.BackgroundImage");
-            btnСateg12.BackgroundImageLayout = ImageLayout.None;
-            btnСateg12.Cursor = Cursors.Hand;
-            btnСateg12.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg12.Location = new Point(3, 595);
-            btnСateg12.Name = "btnСateg12";
-            btnСateg12.Size = new Size(942, 45);
-            btnСateg12.TabIndex = 27;
-            btnСateg12.UseVisualStyleBackColor = true;
+            txtId5.BackColor = SystemColors.Control;
+            txtId5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId5.Location = new Point(2, 155);
+            txtId5.Name = "txtId5";
+            txtId5.Size = new Size(186, 25);
+            txtId5.TabIndex = 43;
+            txtId5.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg11
+            // txtTelNumb5
             // 
-            btnСateg11.BackgroundImage = (Image)resources.GetObject("btnСateg11.BackgroundImage");
-            btnСateg11.BackgroundImageLayout = ImageLayout.None;
-            btnСateg11.Cursor = Cursors.Hand;
-            btnСateg11.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg11.Location = new Point(3, 544);
-            btnСateg11.Name = "btnСateg11";
-            btnСateg11.Size = new Size(942, 45);
-            btnСateg11.TabIndex = 26;
-            btnСateg11.UseVisualStyleBackColor = true;
+            txtTelNumb5.BackColor = SystemColors.Control;
+            txtTelNumb5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtTelNumb5.Location = new Point(592, 155);
+            txtTelNumb5.Name = "txtTelNumb5";
+            txtTelNumb5.Size = new Size(360, 25);
+            txtTelNumb5.TabIndex = 42;
+            txtTelNumb5.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg10
+            // txtName5
             // 
-            btnСateg10.BackgroundImage = (Image)resources.GetObject("btnСateg10.BackgroundImage");
-            btnСateg10.BackgroundImageLayout = ImageLayout.None;
-            btnСateg10.Cursor = Cursors.Hand;
-            btnСateg10.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg10.Location = new Point(3, 493);
-            btnСateg10.Name = "btnСateg10";
-            btnСateg10.Size = new Size(942, 45);
-            btnСateg10.TabIndex = 25;
-            btnСateg10.UseVisualStyleBackColor = true;
+            txtName5.BackColor = SystemColors.Control;
+            txtName5.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName5.Location = new Point(188, 155);
+            txtName5.Name = "txtName5";
+            txtName5.Size = new Size(404, 25);
+            txtName5.TabIndex = 41;
             // 
-            // btnСateg9
+            // txtId6
             // 
-            btnСateg9.BackgroundImage = (Image)resources.GetObject("btnСateg9.BackgroundImage");
-            btnСateg9.BackgroundImageLayout = ImageLayout.None;
-            btnСateg9.Cursor = Cursors.Hand;
-            btnСateg9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg9.Location = new Point(3, 442);
-            btnСateg9.Name = "btnСateg9";
-            btnСateg9.Size = new Size(942, 45);
-            btnСateg9.TabIndex = 24;
-            btnСateg9.UseVisualStyleBackColor = true;
+            txtId6.BackColor = SystemColors.Control;
+            txtId6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId6.Location = new Point(2, 186);
+            txtId6.Name = "txtId6";
+            txtId6.Size = new Size(186, 25);
+            txtId6.TabIndex = 40;
+            txtId6.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg8
+            // txtTelNumb6
             // 
-            btnСateg8.BackgroundImage = (Image)resources.GetObject("btnСateg8.BackgroundImage");
-            btnСateg8.BackgroundImageLayout = ImageLayout.None;
-            btnСateg8.Cursor = Cursors.Hand;
-            btnСateg8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg8.Location = new Point(3, 391);
-            btnСateg8.Name = "btnСateg8";
-            btnСateg8.Size = new Size(942, 45);
-            btnСateg8.TabIndex = 23;
-            btnСateg8.UseVisualStyleBackColor = true;
+            txtTelNumb6.BackColor = SystemColors.Control;
+            txtTelNumb6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtTelNumb6.Location = new Point(592, 186);
+            txtTelNumb6.Name = "txtTelNumb6";
+            txtTelNumb6.Size = new Size(360, 25);
+            txtTelNumb6.TabIndex = 39;
+            txtTelNumb6.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg7
+            // txtName6
             // 
-            btnСateg7.BackgroundImage = (Image)resources.GetObject("btnСateg7.BackgroundImage");
-            btnСateg7.BackgroundImageLayout = ImageLayout.None;
-            btnСateg7.Cursor = Cursors.Hand;
-            btnСateg7.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg7.Location = new Point(3, 340);
-            btnСateg7.Name = "btnСateg7";
-            btnСateg7.Size = new Size(942, 45);
-            btnСateg7.TabIndex = 22;
-            btnСateg7.UseVisualStyleBackColor = true;
+            txtName6.BackColor = SystemColors.Control;
+            txtName6.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName6.Location = new Point(188, 186);
+            txtName6.Name = "txtName6";
+            txtName6.Size = new Size(404, 25);
+            txtName6.TabIndex = 38;
             // 
-            // btnСateg6
+            // txtId4
             // 
-            btnСateg6.BackgroundImage = (Image)resources.GetObject("btnСateg6.BackgroundImage");
-            btnСateg6.BackgroundImageLayout = ImageLayout.None;
-            btnСateg6.Cursor = Cursors.Hand;
-            btnСateg6.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg6.Location = new Point(3, 289);
-            btnСateg6.Name = "btnСateg6";
-            btnСateg6.Size = new Size(942, 45);
-            btnСateg6.TabIndex = 21;
-            btnСateg6.UseVisualStyleBackColor = true;
+            txtId4.BackColor = SystemColors.Control;
+            txtId4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId4.Location = new Point(2, 124);
+            txtId4.Name = "txtId4";
+            txtId4.Size = new Size(186, 25);
+            txtId4.TabIndex = 37;
+            txtId4.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg5
+            // txtTelNumb4
             // 
-            btnСateg5.BackgroundImage = (Image)resources.GetObject("btnСateg5.BackgroundImage");
-            btnСateg5.BackgroundImageLayout = ImageLayout.None;
-            btnСateg5.Cursor = Cursors.Hand;
-            btnСateg5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg5.Location = new Point(3, 238);
-            btnСateg5.Name = "btnСateg5";
-            btnСateg5.Size = new Size(942, 45);
-            btnСateg5.TabIndex = 20;
-            btnСateg5.UseVisualStyleBackColor = true;
+            txtTelNumb4.BackColor = SystemColors.Control;
+            txtTelNumb4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtTelNumb4.Location = new Point(592, 124);
+            txtTelNumb4.Name = "txtTelNumb4";
+            txtTelNumb4.Size = new Size(360, 25);
+            txtTelNumb4.TabIndex = 36;
+            txtTelNumb4.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg4
+            // txtName4
             // 
-            btnСateg4.BackgroundImage = (Image)resources.GetObject("btnСateg4.BackgroundImage");
-            btnСateg4.BackgroundImageLayout = ImageLayout.None;
-            btnСateg4.Cursor = Cursors.Hand;
-            btnСateg4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg4.Location = new Point(3, 187);
-            btnСateg4.Name = "btnСateg4";
-            btnСateg4.Size = new Size(942, 45);
-            btnСateg4.TabIndex = 19;
-            btnСateg4.UseVisualStyleBackColor = true;
+            txtName4.BackColor = SystemColors.Control;
+            txtName4.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName4.Location = new Point(188, 124);
+            txtName4.Name = "txtName4";
+            txtName4.Size = new Size(404, 25);
+            txtName4.TabIndex = 35;
             // 
-            // vScrollBar1
+            // txtId2
             // 
-            vScrollBar1.Location = new Point(948, 0);
-            vScrollBar1.Name = "vScrollBar1";
-            vScrollBar1.Size = new Size(26, 471);
-            vScrollBar1.TabIndex = 18;
+            txtId2.BackColor = SystemColors.Control;
+            txtId2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId2.Location = new Point(2, 62);
+            txtId2.Name = "txtId2";
+            txtId2.Size = new Size(186, 25);
+            txtId2.TabIndex = 34;
+            txtId2.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg3
+            // txtTelNumb2
             // 
-            btnСateg3.BackgroundImage = (Image)resources.GetObject("btnСateg3.BackgroundImage");
-            btnСateg3.BackgroundImageLayout = ImageLayout.None;
-            btnСateg3.Cursor = Cursors.Hand;
-            btnСateg3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg3.Location = new Point(3, 136);
-            btnСateg3.Name = "btnСateg3";
-            btnСateg3.Size = new Size(942, 45);
-            btnСateg3.TabIndex = 6;
-            btnСateg3.UseVisualStyleBackColor = true;
+            txtTelNumb2.BackColor = SystemColors.Control;
+            txtTelNumb2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtTelNumb2.Location = new Point(592, 62);
+            txtTelNumb2.Name = "txtTelNumb2";
+            txtTelNumb2.Size = new Size(360, 25);
+            txtTelNumb2.TabIndex = 33;
+            txtTelNumb2.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnСateg2
+            // txtName2
             // 
-            btnСateg2.BackgroundImage = (Image)resources.GetObject("btnСateg2.BackgroundImage");
-            btnСateg2.BackgroundImageLayout = ImageLayout.None;
-            btnСateg2.Cursor = Cursors.Hand;
-            btnСateg2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg2.Location = new Point(3, 85);
-            btnСateg2.Name = "btnСateg2";
-            btnСateg2.Size = new Size(942, 45);
-            btnСateg2.TabIndex = 5;
-            btnСateg2.UseVisualStyleBackColor = true;
+            txtName2.BackColor = SystemColors.Control;
+            txtName2.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName2.Location = new Point(188, 62);
+            txtName2.Name = "txtName2";
+            txtName2.Size = new Size(404, 25);
+            txtName2.TabIndex = 32;
             // 
-            // btnСateg1
+            // txtId3
             // 
-            btnСateg1.BackgroundImage = (Image)resources.GetObject("btnСateg1.BackgroundImage");
-            btnСateg1.BackgroundImageLayout = ImageLayout.None;
-            btnСateg1.Cursor = Cursors.Hand;
-            btnСateg1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnСateg1.Location = new Point(3, 34);
-            btnСateg1.Name = "btnСateg1";
-            btnСateg1.Size = new Size(942, 45);
-            btnСateg1.TabIndex = 4;
-            btnСateg1.UseVisualStyleBackColor = true;
-            btnСateg1.Click += btn_knauf_Click;
+            txtId3.BackColor = SystemColors.Control;
+            txtId3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId3.Location = new Point(2, 93);
+            txtId3.Name = "txtId3";
+            txtId3.Size = new Size(186, 25);
+            txtId3.TabIndex = 31;
+            txtId3.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtTelNumb3
+            // 
+            txtTelNumb3.BackColor = SystemColors.Control;
+            txtTelNumb3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtTelNumb3.Location = new Point(592, 93);
+            txtTelNumb3.Name = "txtTelNumb3";
+            txtTelNumb3.Size = new Size(360, 25);
+            txtTelNumb3.TabIndex = 30;
+            txtTelNumb3.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtName3
+            // 
+            txtName3.BackColor = SystemColors.Control;
+            txtName3.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName3.Location = new Point(188, 93);
+            txtName3.Name = "txtName3";
+            txtName3.Size = new Size(404, 25);
+            txtName3.TabIndex = 29;
+            // 
+            // txtId1
+            // 
+            txtId1.BackColor = SystemColors.Control;
+            txtId1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtId1.Location = new Point(2, 31);
+            txtId1.Name = "txtId1";
+            txtId1.Size = new Size(186, 25);
+            txtId1.TabIndex = 28;
+            txtId1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtTelNumb1
+            // 
+            txtTelNumb1.BackColor = SystemColors.Control;
+            txtTelNumb1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtTelNumb1.Location = new Point(592, 31);
+            txtTelNumb1.Name = "txtTelNumb1";
+            txtTelNumb1.Size = new Size(360, 25);
+            txtTelNumb1.TabIndex = 25;
+            txtTelNumb1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtName1
+            // 
+            txtName1.BackColor = SystemColors.Control;
+            txtName1.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            txtName1.Location = new Point(188, 31);
+            txtName1.Name = "txtName1";
+            txtName1.Size = new Size(404, 25);
+            txtName1.TabIndex = 24;
+            // 
+            // textBox9
+            // 
+            textBox9.BackColor = SystemColors.ButtonShadow;
+            textBox9.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            textBox9.Location = new Point(2, 0);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(186, 27);
+            textBox9.TabIndex = 23;
+            textBox9.Text = "Код";
+            textBox9.TextAlign = HorizontalAlignment.Center;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = SystemColors.ButtonShadow;
+            textBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            textBox2.Location = new Point(592, 0);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(360, 27);
+            textBox2.TabIndex = 20;
+            textBox2.Text = "Телефони";
+            textBox2.TextAlign = HorizontalAlignment.Center;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.ButtonShadow;
+            textBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            textBox1.Location = new Point(188, 0);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(404, 27);
+            textBox1.TabIndex = 19;
+            textBox1.Text = "Назва";
+            textBox1.TextAlign = HorizontalAlignment.Center;
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.Control;
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(btnMenu10);
-            panel1.Controls.Add(btnMenu12);
-            panel1.Controls.Add(btnMenu11);
-            panel1.Controls.Add(button19);
-            panel1.Controls.Add(button21);
-            panel1.Controls.Add(button22);
-            panel1.Controls.Add(btnMenu7);
-            panel1.Controls.Add(btnMenu9);
-            panel1.Controls.Add(btnMenu8);
-            panel1.Controls.Add(button29);
             panel1.Controls.Add(button1);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(btnMenu4);
-            panel1.Controls.Add(btnMenu6);
-            panel1.Controls.Add(btnMenu5);
-            panel1.Controls.Add(button8);
             panel1.Controls.Add(button26);
             panel1.Controls.Add(button25);
             panel1.Controls.Add(btnMenu1);
             panel1.Controls.Add(btnMenu3);
             panel1.Controls.Add(btnMenu2);
             panel1.Controls.Add(button20);
-            panel1.Controls.Add(button17);
-            panel1.Controls.Add(button24);
+            panel1.Controls.Add(btn_kontr_menu);
             panel1.Location = new Point(0, 96);
             panel1.Name = "panel1";
             panel1.Size = new Size(159, 472);
             panel1.TabIndex = 16;
-            // 
-            // button3
-            // 
-            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
-            button3.BackgroundImageLayout = ImageLayout.None;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatAppearance.BorderColor = Color.White;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button3.Location = new Point(19, 378);
-            button3.Name = "button3";
-            button3.Size = new Size(25, 22);
-            button3.TabIndex = 32;
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
-            button4.BackgroundImageLayout = ImageLayout.None;
-            button4.Cursor = Cursors.Hand;
-            button4.FlatAppearance.BorderColor = Color.White;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button4.Location = new Point(19, 348);
-            button4.Name = "button4";
-            button4.Size = new Size(25, 22);
-            button4.TabIndex = 31;
-            button4.TextAlign = ContentAlignment.MiddleRight;
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu10
-            // 
-            btnMenu10.BackgroundImage = (Image)resources.GetObject("btnMenu10.BackgroundImage");
-            btnMenu10.BackgroundImageLayout = ImageLayout.None;
-            btnMenu10.Cursor = Cursors.Hand;
-            btnMenu10.FlatAppearance.BorderColor = Color.White;
-            btnMenu10.FlatAppearance.BorderSize = 0;
-            btnMenu10.FlatStyle = FlatStyle.Flat;
-            btnMenu10.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu10.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu10.Location = new Point(43, 314);
-            btnMenu10.Name = "btnMenu10";
-            btnMenu10.Size = new Size(111, 26);
-            btnMenu10.TabIndex = 27;
-            btnMenu10.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu12
-            // 
-            btnMenu12.BackgroundImage = (Image)resources.GetObject("btnMenu12.BackgroundImage");
-            btnMenu12.BackgroundImageLayout = ImageLayout.None;
-            btnMenu12.Cursor = Cursors.Hand;
-            btnMenu12.FlatAppearance.BorderColor = Color.White;
-            btnMenu12.FlatAppearance.BorderSize = 0;
-            btnMenu12.FlatStyle = FlatStyle.Flat;
-            btnMenu12.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu12.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu12.Location = new Point(43, 376);
-            btnMenu12.Name = "btnMenu12";
-            btnMenu12.Size = new Size(111, 26);
-            btnMenu12.TabIndex = 29;
-            btnMenu12.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu11
-            // 
-            btnMenu11.BackgroundImage = (Image)resources.GetObject("btnMenu11.BackgroundImage");
-            btnMenu11.BackgroundImageLayout = ImageLayout.None;
-            btnMenu11.Cursor = Cursors.Hand;
-            btnMenu11.FlatAppearance.BorderColor = Color.White;
-            btnMenu11.FlatAppearance.BorderSize = 0;
-            btnMenu11.FlatStyle = FlatStyle.Flat;
-            btnMenu11.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu11.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu11.Location = new Point(43, 346);
-            btnMenu11.Name = "btnMenu11";
-            btnMenu11.Size = new Size(111, 26);
-            btnMenu11.TabIndex = 28;
-            btnMenu11.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            button19.BackgroundImage = (Image)resources.GetObject("button19.BackgroundImage");
-            button19.BackgroundImageLayout = ImageLayout.None;
-            button19.Cursor = Cursors.Hand;
-            button19.FlatAppearance.BorderColor = Color.White;
-            button19.FlatAppearance.BorderSize = 0;
-            button19.FlatStyle = FlatStyle.Flat;
-            button19.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button19.Location = new Point(19, 316);
-            button19.Name = "button19";
-            button19.Size = new Size(25, 22);
-            button19.TabIndex = 30;
-            button19.TextAlign = ContentAlignment.MiddleRight;
-            button19.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            button21.BackgroundImage = (Image)resources.GetObject("button21.BackgroundImage");
-            button21.BackgroundImageLayout = ImageLayout.None;
-            button21.Cursor = Cursors.Hand;
-            button21.FlatAppearance.BorderColor = Color.White;
-            button21.FlatAppearance.BorderSize = 0;
-            button21.FlatStyle = FlatStyle.Flat;
-            button21.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button21.Location = new Point(19, 284);
-            button21.Name = "button21";
-            button21.Size = new Size(25, 22);
-            button21.TabIndex = 26;
-            button21.TextAlign = ContentAlignment.MiddleRight;
-            button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            button22.BackgroundImage = (Image)resources.GetObject("button22.BackgroundImage");
-            button22.BackgroundImageLayout = ImageLayout.None;
-            button22.Cursor = Cursors.Hand;
-            button22.FlatAppearance.BorderColor = Color.White;
-            button22.FlatAppearance.BorderSize = 0;
-            button22.FlatStyle = FlatStyle.Flat;
-            button22.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button22.Location = new Point(19, 254);
-            button22.Name = "button22";
-            button22.Size = new Size(25, 22);
-            button22.TabIndex = 25;
-            button22.TextAlign = ContentAlignment.MiddleRight;
-            button22.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu7
-            // 
-            btnMenu7.BackgroundImage = (Image)resources.GetObject("btnMenu7.BackgroundImage");
-            btnMenu7.BackgroundImageLayout = ImageLayout.None;
-            btnMenu7.Cursor = Cursors.Hand;
-            btnMenu7.FlatAppearance.BorderColor = Color.White;
-            btnMenu7.FlatAppearance.BorderSize = 0;
-            btnMenu7.FlatStyle = FlatStyle.Flat;
-            btnMenu7.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu7.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu7.Location = new Point(43, 220);
-            btnMenu7.Name = "btnMenu7";
-            btnMenu7.Size = new Size(111, 26);
-            btnMenu7.TabIndex = 21;
-            btnMenu7.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu9
-            // 
-            btnMenu9.BackgroundImage = (Image)resources.GetObject("btnMenu9.BackgroundImage");
-            btnMenu9.BackgroundImageLayout = ImageLayout.None;
-            btnMenu9.Cursor = Cursors.Hand;
-            btnMenu9.FlatAppearance.BorderColor = Color.White;
-            btnMenu9.FlatAppearance.BorderSize = 0;
-            btnMenu9.FlatStyle = FlatStyle.Flat;
-            btnMenu9.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu9.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu9.Location = new Point(43, 282);
-            btnMenu9.Name = "btnMenu9";
-            btnMenu9.Size = new Size(111, 26);
-            btnMenu9.TabIndex = 23;
-            btnMenu9.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu8
-            // 
-            btnMenu8.BackgroundImage = (Image)resources.GetObject("btnMenu8.BackgroundImage");
-            btnMenu8.BackgroundImageLayout = ImageLayout.None;
-            btnMenu8.Cursor = Cursors.Hand;
-            btnMenu8.FlatAppearance.BorderColor = Color.White;
-            btnMenu8.FlatAppearance.BorderSize = 0;
-            btnMenu8.FlatStyle = FlatStyle.Flat;
-            btnMenu8.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu8.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu8.Location = new Point(43, 252);
-            btnMenu8.Name = "btnMenu8";
-            btnMenu8.Size = new Size(111, 26);
-            btnMenu8.TabIndex = 22;
-            btnMenu8.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            button29.BackgroundImage = (Image)resources.GetObject("button29.BackgroundImage");
-            button29.BackgroundImageLayout = ImageLayout.None;
-            button29.Cursor = Cursors.Hand;
-            button29.FlatAppearance.BorderColor = Color.White;
-            button29.FlatAppearance.BorderSize = 0;
-            button29.FlatStyle = FlatStyle.Flat;
-            button29.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button29.Location = new Point(19, 222);
-            button29.Name = "button29";
-            button29.Size = new Size(25, 22);
-            button29.TabIndex = 24;
-            button29.TextAlign = ContentAlignment.MiddleRight;
-            button29.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -769,92 +612,12 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button1.Location = new Point(19, 192);
+            button1.Location = new Point(19, 36);
             button1.Name = "button1";
-            button1.Size = new Size(25, 22);
-            button1.TabIndex = 20;
+            button1.Size = new Size(15, 26);
+            button1.TabIndex = 15;
             button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.BackgroundImageLayout = ImageLayout.None;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderColor = Color.White;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button2.Location = new Point(19, 162);
-            button2.Name = "button2";
-            button2.Size = new Size(25, 22);
-            button2.TabIndex = 19;
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu4
-            // 
-            btnMenu4.BackgroundImage = (Image)resources.GetObject("btnMenu4.BackgroundImage");
-            btnMenu4.BackgroundImageLayout = ImageLayout.None;
-            btnMenu4.Cursor = Cursors.Hand;
-            btnMenu4.FlatAppearance.BorderColor = Color.White;
-            btnMenu4.FlatAppearance.BorderSize = 0;
-            btnMenu4.FlatStyle = FlatStyle.Flat;
-            btnMenu4.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu4.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu4.Location = new Point(43, 128);
-            btnMenu4.Name = "btnMenu4";
-            btnMenu4.Size = new Size(111, 26);
-            btnMenu4.TabIndex = 15;
-            btnMenu4.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu6
-            // 
-            btnMenu6.BackgroundImage = (Image)resources.GetObject("btnMenu6.BackgroundImage");
-            btnMenu6.BackgroundImageLayout = ImageLayout.None;
-            btnMenu6.Cursor = Cursors.Hand;
-            btnMenu6.FlatAppearance.BorderColor = Color.White;
-            btnMenu6.FlatAppearance.BorderSize = 0;
-            btnMenu6.FlatStyle = FlatStyle.Flat;
-            btnMenu6.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu6.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu6.Location = new Point(43, 190);
-            btnMenu6.Name = "btnMenu6";
-            btnMenu6.Size = new Size(111, 26);
-            btnMenu6.TabIndex = 17;
-            btnMenu6.UseVisualStyleBackColor = true;
-            // 
-            // btnMenu5
-            // 
-            btnMenu5.BackgroundImage = (Image)resources.GetObject("btnMenu5.BackgroundImage");
-            btnMenu5.BackgroundImageLayout = ImageLayout.None;
-            btnMenu5.Cursor = Cursors.Hand;
-            btnMenu5.FlatAppearance.BorderColor = Color.White;
-            btnMenu5.FlatAppearance.BorderSize = 0;
-            btnMenu5.FlatStyle = FlatStyle.Flat;
-            btnMenu5.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu5.ImageAlign = ContentAlignment.MiddleRight;
-            btnMenu5.Location = new Point(43, 160);
-            btnMenu5.Name = "btnMenu5";
-            btnMenu5.Size = new Size(111, 26);
-            btnMenu5.TabIndex = 16;
-            btnMenu5.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.BackgroundImage = (Image)resources.GetObject("button8.BackgroundImage");
-            button8.BackgroundImageLayout = ImageLayout.None;
-            button8.Cursor = Cursors.Hand;
-            button8.FlatAppearance.BorderColor = Color.White;
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button8.Location = new Point(19, 130);
-            button8.Name = "button8";
-            button8.Size = new Size(25, 22);
-            button8.TabIndex = 18;
-            button8.TextAlign = ContentAlignment.MiddleRight;
-            button8.UseVisualStyleBackColor = true;
             // 
             // button26
             // 
@@ -897,13 +660,12 @@
             btnMenu1.FlatAppearance.BorderSize = 0;
             btnMenu1.FlatStyle = FlatStyle.Flat;
             btnMenu1.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu1.ImageAlign = ContentAlignment.MiddleRight;
             btnMenu1.Location = new Point(43, 34);
             btnMenu1.Name = "btnMenu1";
             btnMenu1.Size = new Size(111, 26);
             btnMenu1.TabIndex = 9;
+            btnMenu1.TextAlign = ContentAlignment.MiddleRight;
             btnMenu1.UseVisualStyleBackColor = true;
-            btnMenu1.Click += btnMenu1_Click;
             // 
             // btnMenu3
             // 
@@ -914,7 +676,6 @@
             btnMenu3.FlatAppearance.BorderSize = 0;
             btnMenu3.FlatStyle = FlatStyle.Flat;
             btnMenu3.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu3.ImageAlign = ContentAlignment.MiddleRight;
             btnMenu3.Location = new Point(43, 96);
             btnMenu3.Name = "btnMenu3";
             btnMenu3.Size = new Size(111, 26);
@@ -930,7 +691,6 @@
             btnMenu2.FlatAppearance.BorderSize = 0;
             btnMenu2.FlatStyle = FlatStyle.Flat;
             btnMenu2.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            btnMenu2.ImageAlign = ContentAlignment.MiddleRight;
             btnMenu2.Location = new Point(43, 66);
             btnMenu2.Name = "btnMenu2";
             btnMenu2.Size = new Size(111, 26);
@@ -953,37 +713,23 @@
             button20.TextAlign = ContentAlignment.MiddleRight;
             button20.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // btn_kontr_menu
             // 
-            button17.BackgroundImage = (Image)resources.GetObject("button17.BackgroundImage");
-            button17.BackgroundImageLayout = ImageLayout.None;
-            button17.Cursor = Cursors.Hand;
-            button17.FlatAppearance.BorderColor = Color.White;
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button17.Location = new Point(24, 4);
-            button17.Name = "button17";
-            button17.Size = new Size(115, 26);
-            button17.TabIndex = 7;
-            button17.Text = "Товари";
-            button17.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            button24.BackgroundImage = (Image)resources.GetObject("button24.BackgroundImage");
-            button24.BackgroundImageLayout = ImageLayout.None;
-            button24.Cursor = Cursors.Hand;
-            button24.FlatAppearance.BorderColor = Color.White;
-            button24.FlatAppearance.BorderSize = 0;
-            button24.FlatStyle = FlatStyle.Flat;
-            button24.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
-            button24.Location = new Point(19, 36);
-            button24.Name = "button24";
-            button24.Size = new Size(25, 22);
-            button24.TabIndex = 12;
-            button24.TextAlign = ContentAlignment.MiddleRight;
-            button24.UseVisualStyleBackColor = true;
+            btn_kontr_menu.BackgroundImage = (Image)resources.GetObject("btn_kontr_menu.BackgroundImage");
+            btn_kontr_menu.BackgroundImageLayout = ImageLayout.None;
+            btn_kontr_menu.Cursor = Cursors.Hand;
+            btn_kontr_menu.FlatAppearance.BorderColor = Color.White;
+            btn_kontr_menu.FlatAppearance.BorderSize = 0;
+            btn_kontr_menu.FlatStyle = FlatStyle.Flat;
+            btn_kontr_menu.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
+            btn_kontr_menu.Location = new Point(24, 4);
+            btn_kontr_menu.Name = "btn_kontr_menu";
+            btn_kontr_menu.Size = new Size(115, 26);
+            btn_kontr_menu.TabIndex = 7;
+            btn_kontr_menu.Text = "Контрагенти";
+            btn_kontr_menu.TextAlign = ContentAlignment.MiddleRight;
+            btn_kontr_menu.UseVisualStyleBackColor = true;
+            btn_kontr_menu.Click += btn_kontr_menu_Click;
             // 
             // tabs
             // 
@@ -999,12 +745,12 @@
             button18.BackgroundImage = (Image)resources.GetObject("button18.BackgroundImage");
             button18.BackgroundImageLayout = ImageLayout.None;
             button18.FlatStyle = FlatStyle.Popup;
-            button18.Font = new Font("Segoe UI", 7F, FontStyle.Bold);
+            button18.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             button18.Location = new Point(0, 0);
             button18.Name = "button18";
             button18.Size = new Size(159, 41);
             button18.TabIndex = 3;
-            button18.Text = "Номенклатура";
+            button18.Text = "Контрагенти";
             button18.TextAlign = ContentAlignment.MiddleRight;
             button18.UseVisualStyleBackColor = true;
             // 
@@ -1136,7 +882,6 @@
             btn_supp.Size = new Size(51, 49);
             btn_supp.TabIndex = 8;
             btn_supp.UseVisualStyleBackColor = false;
-            btn_supp.Click += btn_supp_Click;
             // 
             // btn_goods
             // 
@@ -1152,7 +897,7 @@
             btn_goods.TabIndex = 9;
             btn_goods.UseVisualStyleBackColor = false;
             // 
-            // Goods
+            // Suppliers
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -1162,12 +907,13 @@
             Controls.Add(panel1);
             Controls.Add(tabs);
             Controls.Add(Add_Menu);
-            Name = "Goods";
-            Text = "Goods";
-            Load += Goods_Load;
+            Name = "Suppliers";
+            Text = "Suppliers";
+            Load += Suppliers_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             panel1.ResumeLayout(false);
             tabs.ResumeLayout(false);
             Add_Menu.ResumeLayout(false);
@@ -1213,9 +959,6 @@
         private ToolStripMenuItem партіїТоварівToolStripMenuItem;
         private ToolStripMenuItem взаєморахункиToolStripMenuItem;
         private Panel panel2;
-        private Button btnСateg3;
-        private Button btnСateg2;
-        private Button btnСateg1;
         private Panel panel1;
         private Button button26;
         private Button button25;
@@ -1223,8 +966,7 @@
         private Button btnMenu3;
         private Button btnMenu2;
         private Button button20;
-        private Button button17;
-        private Button button24;
+        private Button btn_kontr_menu;
         private Panel tabs;
         private Button button18;
         private Panel Add_Menu;
@@ -1237,33 +979,27 @@
         private Button button5;
         private Button btn_supp;
         private Button btn_goods;
-        private VScrollBar vScrollBar1;
         private Button button1;
-        private Button button2;
-        private Button btnMenu4;
-        private Button btnMenu6;
-        private Button btnMenu5;
-        private Button button8;
-        private Button btnСateg12;
-        private Button btnСateg11;
-        private Button btnСateg10;
-        private Button btnСateg9;
-        private Button btnСateg8;
-        private Button btnСateg7;
-        private Button btnСateg6;
-        private Button btnСateg5;
-        private Button btnСateg4;
-        private Button button3;
-        private Button button4;
-        private Button btnMenu10;
-        private Button btnMenu12;
-        private Button btnMenu11;
-        private Button button19;
-        private Button button21;
-        private Button button22;
-        private Button btnMenu7;
-        private Button btnMenu9;
-        private Button btnMenu8;
-        private Button button29;
+        private TextBox txtId1;
+        private TextBox txtTelNumb1;
+        private TextBox txtName1;
+        private TextBox textBox9;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private TextBox txtId2;
+        private TextBox txtTelNumb2;
+        private TextBox txtName2;
+        private TextBox txtId3;
+        private TextBox txtTelNumb3;
+        private TextBox txtName3;
+        private TextBox txtId5;
+        private TextBox txtTelNumb5;
+        private TextBox txtName5;
+        private TextBox txtId6;
+        private TextBox txtTelNumb6;
+        private TextBox txtName6;
+        private TextBox txtId4;
+        private TextBox txtTelNumb4;
+        private TextBox txtName4;
     }
 }

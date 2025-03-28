@@ -1,4 +1,5 @@
 ﻿using BootMaster_;
+using BudMayster_.Core.Classes;
 
 namespace BudMayster_.Core.GUI
 {
@@ -37,6 +38,64 @@ namespace BudMayster_.Core.GUI
             };
             gruntForm.Show();
             this.Hide();
+        }
+
+        private void btnMenu1_Click(object sender, EventArgs e)
+        {
+            General.previousLocation = General.GetLocation(this);
+            KNAYF knaufForm = new KNAYF()
+            {
+                StartPosition = FormStartPosition.Manual,
+                Location = General.previousLocation
+            };
+            knaufForm.Show();
+            this.Hide();
+        }
+
+        private void btn_supp_Click(object sender, EventArgs e)
+        {
+            General.previousLocation = General.GetLocation(this);
+            Kontragents kontragentsfForm = new Kontragents()
+            {
+                StartPosition = FormStartPosition.Manual,
+                Location = General.previousLocation
+            };
+            kontragentsfForm.Show();
+            this.Hide();
+        }
+
+        private void KNAYF_Load(object sender, EventArgs e)
+        {
+            LoadCategories();
+            LoadCategoriesMenu();
+        }
+
+        public void LoadCategoriesMenu()
+        {
+            List<string> categoriesMenu = Categories.GetCategories();
+
+            for (int i = 0; i < categoriesMenu.Count && i < 12; i++)
+            {
+                var button = this.Controls.Find($"btnMenu{i + 1}", true).FirstOrDefault() as Button;
+                if (button != null)
+                {
+                    button.Text = categoriesMenu[i];
+                }
+            }
+        }
+
+        public void LoadCategories()
+        {
+            List<string> categories = Categories.GetCategories();
+
+            for (int i = 0; i < categories.Count && i < 12; i++)
+            {
+                var button = this.Controls.Find($"btnСateg{i + 1}", true).FirstOrDefault() as System.Windows.Forms.Button;
+                if (button != null)
+                {
+                    button.Text = categories[i];
+                }
+            }
         }
     }
 }

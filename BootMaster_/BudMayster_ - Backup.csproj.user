@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Core\GUI\General.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Core\GUI\Goods.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="Core\GUI\Grunt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -12,9 +15,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Core\GUI\Kontragents.cs">
-      <SubType>Form</SubType>
-    </Compile>
+=======
     <Compile Update="Core\GUI\Suppliers.cs">
+>>>>>>> e53e0cd (Add Goods Form Design)
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

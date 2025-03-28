@@ -24,3 +24,4 @@ D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windo
 D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\MySql.Data.xml
 D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.CopyComplete
 D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Kontragents.resources
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Suppliers.resources

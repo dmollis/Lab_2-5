@@ -3,9 +3,9 @@ using BudMayster_.Core.Classes;
 
 namespace BudMayster_.Core.GUI
 {
-    public partial class Kontragents : Form
+    public partial class Suppliers : Form
     {
-        public Kontragents()
+        public Suppliers()
         {
             InitializeComponent();
             товариToolStripMenuItem.Click += (sender, e) => General.товариToolStripMenuItem_Click(sender, e, this);
@@ -14,37 +14,25 @@ namespace BudMayster_.Core.GUI
             btn_goods.Click += (sender, e) => General.btn_goods_Click(sender, e, this);
         }
 
-        private void btnKontr1_Click(object sender, EventArgs e)
+        private void btn_kontr_menu_Click(object sender, EventArgs e)
         {
             General.previousLocation = General.GetLocation(this);
-            Suppliers suppForm = new Suppliers()
+            Kontragents kontrForm = new Kontragents()
             {
                 StartPosition = FormStartPosition.Manual,
                 Location = General.previousLocation
             };
-            suppForm.Show();
-            this.Hide();
-        }
-
-        private void btnMenu1_Click(object sender, EventArgs e)
-        {
-            General.previousLocation = General.GetLocation(this);
-            Suppliers suppForm = new Suppliers()
-            {
-                StartPosition = FormStartPosition.Manual,
-                Location = General.previousLocation
-            };
-            suppForm.Show();
+            kontrForm.Show();
             this.Hide();
         }
 
         private void Suppliers_Load(object sender, EventArgs e)
         {
-            LoadKontr();
-            LoadKontrMenu();
+            LoadSupp();
+            LoadSuppMenu();
         }
 
-        public void LoadKontrMenu()
+        public void LoadSuppMenu()
         {
             List<string> kontrMenu = Categories.GetKontr();
 
@@ -58,17 +46,19 @@ namespace BudMayster_.Core.GUI
             }
         }
 
-        public void LoadKontr()
+        public void LoadSupp()
         {
-            List<string> categories = Categories.GetKontr();
+            List<Supplier> supp = Supplier.GetSupplier();
 
-            for (int i = 0; i < categories.Count && i < 3; i++)
+            for (int i = 0; i < supp.Count && i < 6; i++)
             {
-                var button = this.Controls.Find($"btnKontr{i + 1}", true).FirstOrDefault() as Button;
-                if (button != null)
-                {
-                    button.Text = categories[i];
-                }
+                var id = this.Controls.Find($"txtId{i + 1}", true).FirstOrDefault() as TextBox;
+                var name = this.Controls.Find($"txtName{i + 1}", true).FirstOrDefault() as TextBox;
+                var contact_info = this.Controls.Find($"txtTelNumb{i + 1}", true).FirstOrDefault() as TextBox;
+
+                if (id != null) id.Text = supp[i].ID.ToString();
+                if (name != null) name.Text = supp[i].Name;
+                if (contact_info != null) contact_info.Text = supp[i].Contact_info;
             }
         }
     }

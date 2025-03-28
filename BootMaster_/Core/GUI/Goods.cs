@@ -1,19 +1,5 @@
-<<<<<<< HEAD
 ﻿using BootMaster_;
-using BudMayster.Classes;
 using BudMayster_.Core.Classes;
-using MySql.Data.MySqlClient;
-=======
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
->>>>>>> e53e0cd (Add Goods Form Design)
 
 namespace BudMayster_.Core.GUI
 {
@@ -22,7 +8,6 @@ namespace BudMayster_.Core.GUI
         public Goods()
         {
             InitializeComponent();
-<<<<<<< HEAD
             контрагентиToolStripMenuItem.Click += (sender, e) => General.контрагентиToolStripMenuItem_Click(sender, e, this);
             загальнийToolStripMenuItem.Click += (sender, e) => General.загальнийToolStripMenuItem_Click(sender, e, this);
             вихідToolStripMenuItem.Click += (sender, e) => General.вихідToolStripMenuItem_Click(sender, e);
@@ -75,7 +60,7 @@ namespace BudMayster_.Core.GUI
 
             for (int i = 0; i < categoriesMenu.Count && i < 12; i++)
             {
-                var button = this.Controls.Find($"btnMenu{i + 1}", true).FirstOrDefault() as Button;
+                var button = this.Controls.Find($"btnMenu{i + 1}", true).FirstOrDefault() as System.Windows.Forms.Button;
                 if (button != null)
                 {
                     button.Text = categoriesMenu[i];
@@ -89,24 +74,24 @@ namespace BudMayster_.Core.GUI
 
             for (int i = 0; i < categories.Count && i < 12; i++)
             {
-                var button = this.Controls.Find($"btnСateg{i + 1}", true).FirstOrDefault() as Button;
+                var button = this.Controls.Find($"btnСateg{i + 1}", true).FirstOrDefault() as System.Windows.Forms.Button;
                 if (button != null)
                 {
                     button.Text = categories[i];
                 }
             }
-=======
         }
 
-        private void button47_Click(object sender, EventArgs e)
+        private void btn_supp_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-
->>>>>>> e53e0cd (Add Goods Form Design)
+            General.previousLocation = General.GetLocation(this);
+            Kontragents kontragentsfForm = new Kontragents()
+            {
+                StartPosition = FormStartPosition.Manual,
+                Location = General.previousLocation
+            };
+            kontragentsfForm.Show();
+            this.Hide();
         }
     }
 }

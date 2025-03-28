@@ -44,30 +44,30 @@
             hScrollBar1 = new HScrollBar();
             vScrollBar2 = new VScrollBar();
             button27 = new Button();
-            button25 = new Button();
+            btnMenu4 = new Button();
             button26 = new Button();
             button45 = new Button();
-            button46 = new Button();
-            button47 = new Button();
+            btnMenu3 = new Button();
+            btnMenu2 = new Button();
             button15 = new Button();
             button33 = new Button();
             button34 = new Button();
             button35 = new Button();
             button36 = new Button();
             button37 = new Button();
-            button38 = new Button();
+            btnMenu10 = new Button();
             button39 = new Button();
             button40 = new Button();
-            button41 = new Button();
-            button42 = new Button();
-            button43 = new Button();
+            btnMenu7 = new Button();
+            btnMenu9 = new Button();
+            btnMenu8 = new Button();
             button44 = new Button();
             button31 = new Button();
-            button32 = new Button();
+            btnMenu6 = new Button();
             button29 = new Button();
-            button30 = new Button();
+            btnMenu5 = new Button();
             button28 = new Button();
-            button21 = new Button();
+            btnMenu1 = new Button();
             btn_grunt_folder = new Button();
             button22 = new Button();
             button20 = new Button();
@@ -259,6 +259,7 @@
             btn_supp.Size = new Size(51, 49);
             btn_supp.TabIndex = 8;
             btn_supp.UseVisualStyleBackColor = false;
+            btn_supp.Click += btn_supp_Click;
             // 
             // btn_goods
             // 
@@ -280,30 +281,30 @@
             panel1.Controls.Add(hScrollBar1);
             panel1.Controls.Add(vScrollBar2);
             panel1.Controls.Add(button27);
-            panel1.Controls.Add(button25);
+            panel1.Controls.Add(btnMenu4);
             panel1.Controls.Add(button26);
             panel1.Controls.Add(button45);
-            panel1.Controls.Add(button46);
-            panel1.Controls.Add(button47);
+            panel1.Controls.Add(btnMenu3);
+            panel1.Controls.Add(btnMenu2);
             panel1.Controls.Add(button15);
             panel1.Controls.Add(button33);
             panel1.Controls.Add(button34);
             panel1.Controls.Add(button35);
             panel1.Controls.Add(button36);
             panel1.Controls.Add(button37);
-            panel1.Controls.Add(button38);
+            panel1.Controls.Add(btnMenu10);
             panel1.Controls.Add(button39);
             panel1.Controls.Add(button40);
-            panel1.Controls.Add(button41);
-            panel1.Controls.Add(button42);
-            panel1.Controls.Add(button43);
+            panel1.Controls.Add(btnMenu7);
+            panel1.Controls.Add(btnMenu9);
+            panel1.Controls.Add(btnMenu8);
             panel1.Controls.Add(button44);
             panel1.Controls.Add(button31);
-            panel1.Controls.Add(button32);
+            panel1.Controls.Add(btnMenu6);
             panel1.Controls.Add(button29);
-            panel1.Controls.Add(button30);
+            panel1.Controls.Add(btnMenu5);
             panel1.Controls.Add(button28);
-            panel1.Controls.Add(button21);
+            panel1.Controls.Add(btnMenu1);
             panel1.Controls.Add(btn_grunt_folder);
             panel1.Controls.Add(button22);
             panel1.Controls.Add(button20);
@@ -343,21 +344,20 @@
             button27.TextAlign = ContentAlignment.MiddleRight;
             button27.UseVisualStyleBackColor = true;
             // 
-            // button25
+            // btnMenu4
             // 
-            button25.BackgroundImage = (Image)resources.GetObject("button25.BackgroundImage");
-            button25.BackgroundImageLayout = ImageLayout.None;
-            button25.Cursor = Cursors.Hand;
-            button25.FlatAppearance.BorderColor = Color.White;
-            button25.FlatAppearance.BorderSize = 0;
-            button25.FlatStyle = FlatStyle.Flat;
-            button25.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button25.Location = new Point(43, 228);
-            button25.Name = "button25";
-            button25.Size = new Size(125, 26);
-            button25.TabIndex = 38;
-            button25.Text = "Утеплювачі";
-            button25.UseVisualStyleBackColor = true;
+            btnMenu4.BackgroundImage = (Image)resources.GetObject("btnMenu4.BackgroundImage");
+            btnMenu4.BackgroundImageLayout = ImageLayout.None;
+            btnMenu4.Cursor = Cursors.Hand;
+            btnMenu4.FlatAppearance.BorderColor = Color.White;
+            btnMenu4.FlatAppearance.BorderSize = 0;
+            btnMenu4.FlatStyle = FlatStyle.Flat;
+            btnMenu4.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu4.Location = new Point(43, 228);
+            btnMenu4.Name = "btnMenu4";
+            btnMenu4.Size = new Size(125, 26);
+            btnMenu4.TabIndex = 38;
+            btnMenu4.UseVisualStyleBackColor = true;
             // 
             // button26
             // 
@@ -391,37 +391,35 @@
             button45.TextAlign = ContentAlignment.MiddleRight;
             button45.UseVisualStyleBackColor = true;
             // 
-            // button46
+            // btnMenu3
             // 
-            button46.BackgroundImage = (Image)resources.GetObject("button46.BackgroundImage");
-            button46.BackgroundImageLayout = ImageLayout.None;
-            button46.Cursor = Cursors.Hand;
-            button46.FlatAppearance.BorderColor = Color.White;
-            button46.FlatAppearance.BorderSize = 0;
-            button46.FlatStyle = FlatStyle.Flat;
-            button46.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button46.Location = new Point(43, 198);
-            button46.Name = "button46";
-            button46.Size = new Size(111, 26);
-            button46.TabIndex = 35;
-            button46.Text = "Зенит";
-            button46.UseVisualStyleBackColor = true;
+            btnMenu3.BackgroundImage = (Image)resources.GetObject("btnMenu3.BackgroundImage");
+            btnMenu3.BackgroundImageLayout = ImageLayout.None;
+            btnMenu3.Cursor = Cursors.Hand;
+            btnMenu3.FlatAppearance.BorderColor = Color.White;
+            btnMenu3.FlatAppearance.BorderSize = 0;
+            btnMenu3.FlatStyle = FlatStyle.Flat;
+            btnMenu3.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu3.Location = new Point(43, 198);
+            btnMenu3.Name = "btnMenu3";
+            btnMenu3.Size = new Size(111, 26);
+            btnMenu3.TabIndex = 35;
+            btnMenu3.UseVisualStyleBackColor = true;
             // 
-            // button47
+            // btnMenu2
             // 
-            button47.BackgroundImage = (Image)resources.GetObject("button47.BackgroundImage");
-            button47.BackgroundImageLayout = ImageLayout.None;
-            button47.Cursor = Cursors.Hand;
-            button47.FlatAppearance.BorderColor = Color.White;
-            button47.FlatAppearance.BorderSize = 0;
-            button47.FlatStyle = FlatStyle.Flat;
-            button47.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button47.Location = new Point(43, 168);
-            button47.Name = "button47";
-            button47.Size = new Size(111, 26);
-            button47.TabIndex = 34;
-            button47.Text = "Церезит";
-            button47.UseVisualStyleBackColor = true;
+            btnMenu2.BackgroundImage = (Image)resources.GetObject("btnMenu2.BackgroundImage");
+            btnMenu2.BackgroundImageLayout = ImageLayout.None;
+            btnMenu2.Cursor = Cursors.Hand;
+            btnMenu2.FlatAppearance.BorderColor = Color.White;
+            btnMenu2.FlatAppearance.BorderSize = 0;
+            btnMenu2.FlatStyle = FlatStyle.Flat;
+            btnMenu2.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu2.Location = new Point(43, 168);
+            btnMenu2.Name = "btnMenu2";
+            btnMenu2.Size = new Size(111, 26);
+            btnMenu2.TabIndex = 34;
+            btnMenu2.UseVisualStyleBackColor = true;
             // 
             // button15
             // 
@@ -519,21 +517,20 @@
             button37.TextAlign = ContentAlignment.MiddleRight;
             button37.UseVisualStyleBackColor = true;
             // 
-            // button38
+            // btnMenu10
             // 
-            button38.BackgroundImage = (Image)resources.GetObject("button38.BackgroundImage");
-            button38.BackgroundImageLayout = ImageLayout.None;
-            button38.Cursor = Cursors.Hand;
-            button38.FlatAppearance.BorderColor = Color.White;
-            button38.FlatAppearance.BorderSize = 0;
-            button38.FlatStyle = FlatStyle.Flat;
-            button38.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button38.Location = new Point(43, 414);
-            button38.Name = "button38";
-            button38.Size = new Size(125, 26);
-            button38.TabIndex = 27;
-            button38.Text = "Шпаклівка";
-            button38.UseVisualStyleBackColor = true;
+            btnMenu10.BackgroundImage = (Image)resources.GetObject("btnMenu10.BackgroundImage");
+            btnMenu10.BackgroundImageLayout = ImageLayout.None;
+            btnMenu10.Cursor = Cursors.Hand;
+            btnMenu10.FlatAppearance.BorderColor = Color.White;
+            btnMenu10.FlatAppearance.BorderSize = 0;
+            btnMenu10.FlatStyle = FlatStyle.Flat;
+            btnMenu10.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu10.Location = new Point(43, 414);
+            btnMenu10.Name = "btnMenu10";
+            btnMenu10.Size = new Size(125, 26);
+            btnMenu10.TabIndex = 27;
+            btnMenu10.UseVisualStyleBackColor = true;
             // 
             // button39
             // 
@@ -567,53 +564,50 @@
             button40.TextAlign = ContentAlignment.MiddleRight;
             button40.UseVisualStyleBackColor = true;
             // 
-            // button41
+            // btnMenu7
             // 
-            button41.BackgroundImage = (Image)resources.GetObject("button41.BackgroundImage");
-            button41.BackgroundImageLayout = ImageLayout.None;
-            button41.Cursor = Cursors.Hand;
-            button41.FlatAppearance.BorderColor = Color.White;
-            button41.FlatAppearance.BorderSize = 0;
-            button41.FlatStyle = FlatStyle.Flat;
-            button41.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button41.Location = new Point(43, 322);
-            button41.Name = "button41";
-            button41.Size = new Size(111, 26);
-            button41.TabIndex = 21;
-            button41.Text = "Полісан";
-            button41.UseVisualStyleBackColor = true;
+            btnMenu7.BackgroundImage = (Image)resources.GetObject("btnMenu7.BackgroundImage");
+            btnMenu7.BackgroundImageLayout = ImageLayout.None;
+            btnMenu7.Cursor = Cursors.Hand;
+            btnMenu7.FlatAppearance.BorderColor = Color.White;
+            btnMenu7.FlatAppearance.BorderSize = 0;
+            btnMenu7.FlatStyle = FlatStyle.Flat;
+            btnMenu7.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu7.Location = new Point(43, 322);
+            btnMenu7.Name = "btnMenu7";
+            btnMenu7.Size = new Size(111, 26);
+            btnMenu7.TabIndex = 21;
+            btnMenu7.UseVisualStyleBackColor = true;
             // 
-            // button42
+            // btnMenu9
             // 
-            button42.BackgroundImage = (Image)resources.GetObject("button42.BackgroundImage");
-            button42.BackgroundImageLayout = ImageLayout.None;
-            button42.Cursor = Cursors.Hand;
-            button42.FlatAppearance.BorderColor = Color.White;
-            button42.FlatAppearance.BorderSize = 0;
-            button42.FlatStyle = FlatStyle.Flat;
-            button42.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button42.Location = new Point(43, 384);
-            button42.Name = "button42";
-            button42.Size = new Size(111, 26);
-            button42.TabIndex = 23;
-            button42.Text = "Газобетон";
-            button42.UseVisualStyleBackColor = true;
+            btnMenu9.BackgroundImage = (Image)resources.GetObject("btnMenu9.BackgroundImage");
+            btnMenu9.BackgroundImageLayout = ImageLayout.None;
+            btnMenu9.Cursor = Cursors.Hand;
+            btnMenu9.FlatAppearance.BorderColor = Color.White;
+            btnMenu9.FlatAppearance.BorderSize = 0;
+            btnMenu9.FlatStyle = FlatStyle.Flat;
+            btnMenu9.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu9.Location = new Point(43, 384);
+            btnMenu9.Name = "btnMenu9";
+            btnMenu9.Size = new Size(111, 26);
+            btnMenu9.TabIndex = 23;
+            btnMenu9.UseVisualStyleBackColor = true;
             // 
-            // button43
+            // btnMenu8
             // 
-            button43.BackgroundImage = (Image)resources.GetObject("button43.BackgroundImage");
-            button43.BackgroundImageLayout = ImageLayout.None;
-            button43.Cursor = Cursors.Hand;
-            button43.FlatAppearance.BorderColor = Color.White;
-            button43.FlatAppearance.BorderSize = 0;
-            button43.FlatStyle = FlatStyle.Flat;
-            button43.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button43.Location = new Point(43, 354);
-            button43.Name = "button43";
-            button43.Size = new Size(111, 26);
-            button43.TabIndex = 22;
-            button43.Text = "Двері";
-            button43.UseVisualStyleBackColor = true;
+            btnMenu8.BackgroundImage = (Image)resources.GetObject("btnMenu8.BackgroundImage");
+            btnMenu8.BackgroundImageLayout = ImageLayout.None;
+            btnMenu8.Cursor = Cursors.Hand;
+            btnMenu8.FlatAppearance.BorderColor = Color.White;
+            btnMenu8.FlatAppearance.BorderSize = 0;
+            btnMenu8.FlatStyle = FlatStyle.Flat;
+            btnMenu8.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu8.Location = new Point(43, 354);
+            btnMenu8.Name = "btnMenu8";
+            btnMenu8.Size = new Size(111, 26);
+            btnMenu8.TabIndex = 22;
+            btnMenu8.UseVisualStyleBackColor = true;
             // 
             // button44
             // 
@@ -647,21 +641,20 @@
             button31.TextAlign = ContentAlignment.MiddleRight;
             button31.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // btnMenu6
             // 
-            button32.BackgroundImage = (Image)resources.GetObject("button32.BackgroundImage");
-            button32.BackgroundImageLayout = ImageLayout.None;
-            button32.Cursor = Cursors.Hand;
-            button32.FlatAppearance.BorderColor = Color.White;
-            button32.FlatAppearance.BorderSize = 0;
-            button32.FlatStyle = FlatStyle.Flat;
-            button32.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button32.Location = new Point(43, 292);
-            button32.Name = "button32";
-            button32.Size = new Size(111, 26);
-            button32.TabIndex = 19;
-            button32.Text = "Клей";
-            button32.UseVisualStyleBackColor = true;
+            btnMenu6.BackgroundImage = (Image)resources.GetObject("btnMenu6.BackgroundImage");
+            btnMenu6.BackgroundImageLayout = ImageLayout.None;
+            btnMenu6.Cursor = Cursors.Hand;
+            btnMenu6.FlatAppearance.BorderColor = Color.White;
+            btnMenu6.FlatAppearance.BorderSize = 0;
+            btnMenu6.FlatStyle = FlatStyle.Flat;
+            btnMenu6.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu6.Location = new Point(43, 292);
+            btnMenu6.Name = "btnMenu6";
+            btnMenu6.Size = new Size(111, 26);
+            btnMenu6.TabIndex = 19;
+            btnMenu6.UseVisualStyleBackColor = true;
             // 
             // button29
             // 
@@ -679,21 +672,20 @@
             button29.TextAlign = ContentAlignment.MiddleRight;
             button29.UseVisualStyleBackColor = true;
             // 
-            // button30
+            // btnMenu5
             // 
-            button30.BackgroundImage = (Image)resources.GetObject("button30.BackgroundImage");
-            button30.BackgroundImageLayout = ImageLayout.None;
-            button30.Cursor = Cursors.Hand;
-            button30.FlatAppearance.BorderColor = Color.White;
-            button30.FlatAppearance.BorderSize = 0;
-            button30.FlatStyle = FlatStyle.Flat;
-            button30.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button30.Location = new Point(43, 260);
-            button30.Name = "button30";
-            button30.Size = new Size(111, 26);
-            button30.TabIndex = 17;
-            button30.Text = "Полімін";
-            button30.UseVisualStyleBackColor = true;
+            btnMenu5.BackgroundImage = (Image)resources.GetObject("btnMenu5.BackgroundImage");
+            btnMenu5.BackgroundImageLayout = ImageLayout.None;
+            btnMenu5.Cursor = Cursors.Hand;
+            btnMenu5.FlatAppearance.BorderColor = Color.White;
+            btnMenu5.FlatAppearance.BorderSize = 0;
+            btnMenu5.FlatStyle = FlatStyle.Flat;
+            btnMenu5.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu5.Location = new Point(43, 260);
+            btnMenu5.Name = "btnMenu5";
+            btnMenu5.Size = new Size(111, 26);
+            btnMenu5.TabIndex = 17;
+            btnMenu5.UseVisualStyleBackColor = true;
             // 
             // button28
             // 
@@ -711,21 +703,21 @@
             button28.Text = "Сухі суміші";
             button28.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // btnMenu1
             // 
-            button21.BackgroundImage = (Image)resources.GetObject("button21.BackgroundImage");
-            button21.BackgroundImageLayout = ImageLayout.None;
-            button21.Cursor = Cursors.Hand;
-            button21.FlatAppearance.BorderColor = Color.White;
-            button21.FlatAppearance.BorderSize = 0;
-            button21.FlatStyle = FlatStyle.Flat;
-            button21.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
-            button21.Location = new Point(43, 34);
-            button21.Name = "button21";
-            button21.Size = new Size(111, 26);
-            button21.TabIndex = 9;
-            button21.Text = "КНАУФ";
-            button21.UseVisualStyleBackColor = true;
+            btnMenu1.BackgroundImage = (Image)resources.GetObject("btnMenu1.BackgroundImage");
+            btnMenu1.BackgroundImageLayout = ImageLayout.None;
+            btnMenu1.Cursor = Cursors.Hand;
+            btnMenu1.FlatAppearance.BorderColor = Color.White;
+            btnMenu1.FlatAppearance.BorderSize = 0;
+            btnMenu1.FlatStyle = FlatStyle.Flat;
+            btnMenu1.Font = new Font("Segoe UI", 6F, FontStyle.Bold);
+            btnMenu1.Location = new Point(43, 34);
+            btnMenu1.Name = "btnMenu1";
+            btnMenu1.Size = new Size(111, 26);
+            btnMenu1.TabIndex = 9;
+            btnMenu1.UseVisualStyleBackColor = true;
+            btnMenu1.Click += btnMenu1_Click;
             // 
             // btn_grunt_folder
             // 
@@ -1057,25 +1049,25 @@
             // загальнийToolStripMenuItem
             // 
             загальнийToolStripMenuItem.Name = "загальнийToolStripMenuItem";
-            загальнийToolStripMenuItem.Size = new Size(224, 28);
+            загальнийToolStripMenuItem.Size = new Size(192, 28);
             загальнийToolStripMenuItem.Text = "Загальний";
             // 
             // расхНаклToolStripMenuItem2
             // 
             расхНаклToolStripMenuItem2.Name = "расхНаклToolStripMenuItem2";
-            расхНаклToolStripMenuItem2.Size = new Size(224, 28);
+            расхНаклToolStripMenuItem2.Size = new Size(192, 28);
             расхНаклToolStripMenuItem2.Text = "Расх. накл.";
             // 
             // прихНаклToolStripMenuItem2
             // 
             прихНаклToolStripMenuItem2.Name = "прихНаклToolStripMenuItem2";
-            прихНаклToolStripMenuItem2.Size = new Size(224, 28);
+            прихНаклToolStripMenuItem2.Size = new Size(192, 28);
             прихНаклToolStripMenuItem2.Text = "Прих. накл.";
             // 
             // складськіToolStripMenuItem1
             // 
             складськіToolStripMenuItem1.Name = "складськіToolStripMenuItem1";
-            складськіToolStripMenuItem1.Size = new Size(224, 28);
+            складськіToolStripMenuItem1.Size = new Size(192, 28);
             складськіToolStripMenuItem1.Text = "Складські";
             // 
             // звітиToolStripMenuItem
@@ -1125,6 +1117,7 @@
             Controls.Add(Main_Menu);
             Name = "KNAYF";
             Text = "Номенклатура-КНАУФ";
+            Load += KNAYF_Load;
             Add_Menu.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
@@ -1154,19 +1147,19 @@
         private Button button35;
         private Button button36;
         private Button button37;
-        private Button button38;
+        private Button btnMenu10;
         private Button button39;
         private Button button40;
-        private Button button41;
-        private Button button42;
-        private Button button43;
+        private Button btnMenu7;
+        private Button btnMenu9;
+        private Button btnMenu8;
         private Button button44;
         private Button button31;
-        private Button button32;
+        private Button btnMenu6;
         private Button button29;
-        private Button button30;
+        private Button btnMenu5;
         private Button button28;
-        private Button button21;
+        private Button btnMenu1;
         private Button btn_grunt_folder;
         private Button button22;
         private Button button20;
@@ -1181,11 +1174,11 @@
         private Button button24;
         private VScrollBar vScrollBar2;
         private Button button27;
-        private Button button25;
+        private Button btnMenu4;
         private Button button26;
         private Button button45;
-        private Button button46;
-        private Button button47;
+        private Button btnMenu3;
+        private Button btnMenu2;
         private HScrollBar hScrollBar1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem файлToolStripMenuItem;

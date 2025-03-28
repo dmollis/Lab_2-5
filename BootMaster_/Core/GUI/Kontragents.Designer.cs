@@ -336,6 +336,7 @@
             btnMenu1.TabIndex = 9;
             btnMenu1.TextAlign = ContentAlignment.MiddleRight;
             btnMenu1.UseVisualStyleBackColor = true;
+            btnMenu1.Click += btnMenu1_Click;
             // 
             // btnMenu3
             // 
@@ -462,6 +463,7 @@
             btnKontr1.Size = new Size(971, 45);
             btnKontr1.TabIndex = 4;
             btnKontr1.UseVisualStyleBackColor = true;
+            btnKontr1.Click += btnKontr1_Click;
             // 
             // menuStrip1
             // 
@@ -700,7 +702,7 @@
             взаєморахункиToolStripMenuItem.Size = new Size(300, 28);
             взаєморахункиToolStripMenuItem.Text = "Взаєморахунки";
             // 
-            // Suppliers
+            // Kontragents
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -712,7 +714,7 @@
             Controls.Add(tabs);
             Controls.Add(Add_Menu);
             Controls.Add(Main_Menu);
-            Name = "Suppliers";
+            Name = "Kontragents";
             Text = "Контрагенти";
             Load += Suppliers_Load;
             Add_Menu.ResumeLayout(false);
