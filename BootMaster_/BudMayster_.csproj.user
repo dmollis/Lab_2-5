@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Core\GUI\General.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Core\GUI\Goods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Core\GUI\Grunt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Core\GUI\KNAYF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Core\GUI\Kontragents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

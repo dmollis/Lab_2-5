@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\belik\\Laba2-5git\\Lab_2-5\\BootMaster_\\BootMaster_.csproj": {}
   },
   "projects": {
@@ -12,9 +13,27 @@
         "projectPath": "C:\\Users\\belik\\Laba2-5git\\Lab_2-5\\BootMaster_\\BootMaster_.csproj",
         "packagesPath": "C:\\Users\\belik\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\belik\\Laba2-5git\\Lab_2-5\\BootMaster_\\obj\\",
+=======
+    "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BootMaster_.csproj": {}
+  },
+  "projects": {
+    "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BootMaster_.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BootMaster_.csproj",
+        "projectName": "BootMaster_",
+        "projectPath": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\BootMaster_.csproj",
+        "packagesPath": "C:\\Users\\Марина\\.nuget\\packages\\",
+        "outputPath": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\BootMaster_\\obj\\",
+>>>>>>> progr
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\belik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Марина\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> progr
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +41,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\VS Community\\C#.NET_2\\APZ_Lr1_Trush\\WeekDaysComponent\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +54,14 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
+=======
+>>>>>>> progr
         }
       },
       "frameworks": {
@@ -63,7 +86,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+>>>>>>> progr
         }
       }
     }

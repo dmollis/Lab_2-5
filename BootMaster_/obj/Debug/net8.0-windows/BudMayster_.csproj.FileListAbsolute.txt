@@ -1,0 +1,66 @@
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BootMaster_.General.resources
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Goods.resources
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Grunt.resources
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.KNAYF.resources
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Properties.Resources.resources
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.GenerateResource.cache
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.AssemblyInfoInputs.cache
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.AssemblyInfo.cs
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.CoreCompileInputs.cache
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.sourcelink.json
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.exe
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.deps.json
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.runtimeconfig.json
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.dll
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.pdb
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.dll
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\refint\BudMayster_.dll
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.pdb
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.genruntimeconfig.cache
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\ref\BudMayster_.dll
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.AssemblyReference.cache
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\MySql.Data.xml
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.CopyComplete
+D:\VS Community\C#.NET_2\BudMayster_2\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Kontragents.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.exe
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.deps.json
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.runtimeconfig.json
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BudMayster_.pdb
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.AssemblyReference.cache
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BootMaster_.General.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Goods.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Grunt.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.KNAYF.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Core.GUI.Kontragents.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.Properties.Resources.resources
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.GenerateResource.cache
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.AssemblyInfoInputs.cache
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.AssemblyInfo.cs
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.csproj.CoreCompileInputs.cache
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.sourcelink.json
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayst.04F0B713.Up2Date
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\refint\BudMayster_.dll
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.pdb
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\BudMayster_.genruntimeconfig.cache
+C:\Users\belik\Laba2-5git\Lab_2-5\BootMaster_\obj\Debug\net8.0-windows\ref\BudMayster_.dll
