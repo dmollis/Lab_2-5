@@ -53,7 +53,7 @@ namespace BudMayster_.Core.GUI
 
         public void LoadMaterials()
         {
-            List<Material> materials = Material.GetMaterials();
+            List<Material> materials = Material.GetMaterialsInj();
 
             for (int i = 0; i < materials.Count && i < 9; i++)
             {

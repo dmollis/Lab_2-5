@@ -2,8 +2,12 @@
 {
     class ConcreteMaterial : Material
     {
-        public ConcreteMaterial(int id, string name, int quantity, decimal price_zakup, decimal perc_zakup, decimal price_opt, decimal perc_opt, decimal price_prod)
-            : base(id, name, quantity, price_zakup, perc_zakup,  price_opt, perc_opt, price_prod)
+        public ConcreteMaterial(BudMayster_.Core.Interfaces.IDatabaseConnection _dbConnection, int id, string name, int quantity, decimal price_zakup, decimal perc_zakup, decimal price_opt, decimal perc_opt, decimal price_prod)
+            : base(id, name, quantity, price_zakup, perc_zakup, price_opt, perc_opt, price_prod)
+        {
+        }
+
+        public ConcreteMaterial(int id, string name, int quantity, decimal price_zakup, decimal perc_zakup, decimal price_opt, decimal perc_opt, decimal price_prod) : base(id, name, quantity, price_zakup, perc_zakup, price_opt, perc_opt, price_prod)
         {
         }
 
