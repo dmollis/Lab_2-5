@@ -72,7 +72,8 @@ namespace BudMayster_.Core.GUI
 
         public void LoadCategoriesMenu()
         {
-            List<string> categoriesMenu = Categories.GetCategories();
+            var connection = new DatabaseConnection(Constants.Instance.connection);
+            List<string> categoriesMenu = Categories.GetCategories(connection);
 
             for (int i = 0; i < categoriesMenu.Count && i < 12; i++)
             {
@@ -86,7 +87,8 @@ namespace BudMayster_.Core.GUI
 
         public void LoadCategories()
         {
-            List<string> categories = Categories.GetCategories();
+            var connection = new DatabaseConnection(Constants.Instance.connection);
+            List<string> categories = Categories.GetCategories(connection);
 
             for (int i = 0; i < categories.Count && i < 12; i++)
             {

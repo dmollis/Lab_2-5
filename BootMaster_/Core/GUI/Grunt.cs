@@ -39,7 +39,8 @@ namespace BudMayster_.Core.GUI
 
         public void LoadCategoriesMenu()
         {
-            List<string> categoriesMenu = Categories.GetCategories();
+            var connection = new DatabaseConnection(Constants.Instance.connection);
+            List<string> categoriesMenu = Categories.GetCategories(connection);
 
             for (int i = 0; i < categoriesMenu.Count && i < 12; i++)
             {
@@ -53,7 +54,9 @@ namespace BudMayster_.Core.GUI
 
         public void LoadMaterials()
         {
-            List<Material> materials = Material.GetMaterialsInj();
+            var dbConnection = new DatabaseConnection(Constants.Instance.connection);
+            var material = new ConcreteMaterial(dbConnection);
+            List<Material> materials = material.GetMaterials();
 
             for (int i = 0; i < materials.Count && i < 9; i++)
             {

@@ -46,7 +46,8 @@ namespace BudMayster_.Core.GUI
 
         public void LoadKontrMenu()
         {
-            List<string> kontrMenu = Categories.GetKontr();
+            var connection = new DatabaseConnection(Constants.Instance.connection);
+            List<string> kontrMenu = Categories.GetKontr(connection);
 
             for (int i = 0; i < kontrMenu.Count && i < 3; i++)
             {
@@ -60,7 +61,8 @@ namespace BudMayster_.Core.GUI
 
         public void LoadKontr()
         {
-            List<string> categories = Categories.GetKontr();
+            var connection = new DatabaseConnection(Constants.Instance.connection);
+            List<string> categories = Categories.GetKontr(connection);
 
             for (int i = 0; i < categories.Count && i < 3; i++)
             {

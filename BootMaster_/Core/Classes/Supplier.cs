@@ -1,6 +1,5 @@
-﻿using BudMayster.Classes;
+﻿using BudMayster_.Core.Interfaces;
 using MySql.Data.MySqlClient;
-using System.Security.Cryptography.Pkcs;
 
 namespace BudMayster_.Core.Classes
 {
@@ -20,15 +19,15 @@ namespace BudMayster_.Core.Classes
             Contact_info = contact_info;
         }
 
-        public static List<Supplier> GetSupplier()
+        public static List<Supplier> GetSupplier(IDatabaseConnection dbConnection)
         {
             List<Supplier> suppl = new List<Supplier>();
 
             try
             {
-                Material.openConnectionDB();
+                dbConnection.OpenConnection();
                 string query = "SELECT id, name, contact_info FROM suppliers";
-                using (MySqlCommand cmd = new MySqlCommand(query, Material.getConnection()))
+                using (MySqlCommand cmd = new MySqlCommand(query, dbConnection.GetConnection()))
                 {
                     using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
@@ -51,7 +50,7 @@ namespace BudMayster_.Core.Classes
             }
             finally
             {
-                Material.closeConnectionDB();
+                dbConnection.CloseConnection();
             }
             return suppl;
         }

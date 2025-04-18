@@ -1,7 +1,6 @@
 ﻿using BudMayster_.Core.Classes;
 using BudMayster.Interfaces;
 using MySql.Data.MySqlClient;
-using System.Data;
 using BudMayster_.Core.Interfaces;
 
 namespace BudMayster.Classes
@@ -18,7 +17,6 @@ namespace BudMayster.Classes
         public decimal Percent_zakup { get; set; }
         public decimal Percent_opt { get; set; }
         private readonly IDatabaseConnection _dbConnection;
-        private static MySqlConnection connectDB = Constants.Instance.connection;
 
         public Material()
         {
@@ -120,7 +118,7 @@ namespace BudMayster.Classes
             try
             {
                 _dbConnection.OpenConnection();
-                string query = "SELECT id, name, supplier_id, price_zakup, %_zakup, price_opt, %_opt, price_prod, quantity FROM materials";
+                string query = "SELECT id, name, supplier_id, price_zakup, `%_zakup`, price_opt, `%_opt`, price_prod, quantity FROM materials";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, _dbConnection.GetConnection()))
                 {
@@ -152,73 +150,6 @@ namespace BudMayster.Classes
             finally
             {
                 _dbConnection.CloseConnection();
-            }
-            return materials;
-        }
-
-
-
-
-
-
-        public static void openConnectionDB()
-        {
-            if (connectDB.State == ConnectionState.Closed)
-            {
-                connectDB.Open();
-            }
-        }
-
-        public static void closeConnectionDB()
-        {
-            if (connectDB.State == ConnectionState.Open)
-            {
-                connectDB.Close();
-            }
-        }
-
-        public static MySqlConnection getConnection()
-        {
-            return connectDB;
-        }
-
-        public static List<Material> GetMaterialsInj()
-        {
-            List<Material> materials = new List<Material>();
-
-            try
-            {
-                openConnectionDB();
-                string query = "SELECT id, name, supplier_id, price_zakup, `%_zakup`, price_opt, `%_opt`, price_prod, quantity FROM materials";
-                using (MySqlCommand cmd = new MySqlCommand(query, getConnection()))
-                {
-                    using (MySqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            var material = new ConcreteMaterial(
-                                reader.GetInt32("id"),
-                                reader.GetString("name"),
-                                reader.GetInt32("quantity"),
-                                reader.GetDecimal("price_zakup"),
-                                reader.GetDecimal("%_zakup"),
-                                reader.GetDecimal("price_opt"),
-                                reader.GetDecimal("%_opt"),
-                                reader.GetDecimal("price_prod")
-                            );
-
-                            materials.Add(material);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Помилка під час отримання матеріалів: {ex.Message}");
-            }
-            finally
-            {
-                closeConnectionDB();
             }
             return materials;
         }

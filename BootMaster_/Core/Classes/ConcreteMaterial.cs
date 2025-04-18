@@ -1,4 +1,6 @@
-﻿namespace BudMayster.Classes
+﻿using BudMayster_.Core.Interfaces;
+
+namespace BudMayster.Classes
 {
     class ConcreteMaterial : Material
     {
@@ -8,6 +10,10 @@
         }
 
         public ConcreteMaterial(int id, string name, int quantity, decimal price_zakup, decimal perc_zakup, decimal price_opt, decimal perc_opt, decimal price_prod) : base(id, name, quantity, price_zakup, perc_zakup, price_opt, perc_opt, price_prod)
+        {
+        }
+
+        public ConcreteMaterial(IDatabaseConnection dbConnection) : base(dbConnection)
         {
         }
 
