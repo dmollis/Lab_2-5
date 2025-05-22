@@ -55,10 +55,21 @@ namespace BudMayster.Classes
             Price_prod = price_prod;
         }
 
+        // Потребує таких тестових наборів:
+        // - Валідні дані (усі значення > 0 або не порожні) — перевірка створення об'єкта без виключень.
+        // - Невалідна назва (null, "", "   ") — очікується ArgumentException.
+        // - Кількість < 0 — очікується ArgumentException.
+        // - Будь-яка з цін < 0 — очікується ArgumentException.
+        // - Будь-який з відсотків < 0 — очікується ArgumentException.
+
         public Material(IDatabaseConnection dbConnection)
         {
             _dbConnection = dbConnection ?? throw new ArgumentNullException(nameof(dbConnection));
         }
+
+        // Потребує таких тестових наборів:
+        // - Валідний об'єкт підключення до БД — перевірка правильного збереження залежності.
+        // - null як dbConnection — очікується ArgumentNullException.
 
         public Material(
             IDatabaseConnection dbConnection,
@@ -102,6 +113,11 @@ namespace BudMayster.Classes
             Price_prod = price_prod;
         }
 
+        // Потребує таких тестових наборів:
+        // - Валідні значення (включно з підключенням до БД) — перевірка створення без виключень.
+        // - null як dbConnection — очікується ArgumentNullException.
+        // - Невалідна назва, кількість, ціни або відсотки — очікується ArgumentException.
+
         public override string ToString()
         {
             return $"Назва: {Name}\n" +
@@ -110,6 +126,10 @@ namespace BudMayster.Classes
                    $"Ціна опту: {Price_opt} ₴\n" +
                    $"Ціна продажу: {Price_prod} ₴\n";
         }
+
+        // Потребує таких тестових наборів:
+        // - Об'єкт з наперед заданими значеннями Name, Quantity, Price_zakup, Price_opt, Price_prod — перевірка правильності форматування рядка.
+        // - Граничні значення (наприклад, Quantity = 0, Price_zakup = 0.01) — перевірка форматування.
 
         public List<Material> GetMaterials()
         {
@@ -154,6 +174,12 @@ namespace BudMayster.Classes
             return materials;
         }
 
+        // Потребує таких тестових наборів:
+        // - БД містить кілька валідних записів — перевірка правильного зчитування і мапінгу у список.
+        // - БД порожня — перевірка, що метод повертає порожній список.
+        // - БД повертає записи з null або неочікуваними типами — очікується відповідна обробка або виключення.
+        // - Виникає помилка з'єднання з БД — перевірка, що кидається виключення з відповідним повідомленням.
+
         public void UpdateQuantity(int newQuantity)
         {
             if (newQuantity < 0)
@@ -161,6 +187,11 @@ namespace BudMayster.Classes
 
             Quantity = newQuantity;
         }
+
+        // Потребує таких тестових наборів:
+        // - newQuantity > 0 — перевірка оновлення значення Quantity.
+        // - newQuantity = 0 — перевірка, що нульове значення дозволене (якщо вважається логічно припустимим).
+        // - newQuantity < 0 — очікується ArgumentException.
 
         public void UpdatePrices(decimal newPriceZakup, decimal newPriceOpt, decimal newPriceProd)
         {
@@ -171,5 +202,10 @@ namespace BudMayster.Classes
             Price_opt = newPriceOpt;
             Price_prod = newPriceProd;
         }
+
+        // Потребує таких тестових наборів:
+        // - Усі ціни > 0 — перевірка оновлення цін.
+        // - Будь-яка з цін = 0 або < 0 — очікується ArgumentException.
+        // - Граничні значення типу decimal (наприклад, 0.0001) — перевірка округлень або точності, якщо важливо.
     }
 }

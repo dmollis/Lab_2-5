@@ -132,6 +132,10 @@
               "target": "Package",
               "version": "[9.3.0, )"
             },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.4.7, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"

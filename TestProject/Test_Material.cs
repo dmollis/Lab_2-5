@@ -1,9 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BudMayster.Classes;
-using System;
-using System.Collections.Generic;
-using MySql.Data.MySqlClient;
-using TestProject;
+﻿using TestProject;
 using Moq;
 using BudMayster.Interfaces;
 using BudMayster_.Core.Classes;

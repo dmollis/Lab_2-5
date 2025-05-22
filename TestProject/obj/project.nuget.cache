@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "94FPIUUdSESuVbdCnt0nD/PREvNv3ofgBToj6FAd2b9Z+mereBqyOa/bYzIMSKCr3lKZElPUY3VBNlTcT+5cJQ==",
+  "dgSpecHash": "JvtT5cDJ1+HR0i5jwS6btm4totyG5O5rr2QX0KDBLmPwAZ+ncHMJ0oey+7PDDqrjXHCGmE1KQgEV3JyT3nZPfw==",
   "success": true,
   "projectFilePath": "D:\\VS Community\\C#.NET_2\\BudMayster_2\\Lab_2-5\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Марина\\.nuget\\packages\\mysql.data\\9.3.0\\mysql.data.9.3.0.nupkg.sha512",
     "C:\\Users\\Марина\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Марина\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Марина\\.nuget\\packages\\reportgenerator\\5.4.7\\reportgenerator.5.4.7.nupkg.sha512",
     "C:\\Users\\Марина\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Марина\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\Марина\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",

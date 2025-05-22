@@ -1,7 +1,5 @@
 using BudMayster.Interfaces;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using System;
 using TestProject;
 
 namespace BudMayster.Tests
