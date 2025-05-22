@@ -153,5 +153,23 @@ namespace BudMayster.Classes
             }
             return materials;
         }
+
+        public void UpdateQuantity(int newQuantity)
+        {
+            if (newQuantity < 0)
+                throw new ArgumentException("Кількість не може бути від'ємною.");
+
+            Quantity = newQuantity;
+        }
+
+        public void UpdatePrices(decimal newPriceZakup, decimal newPriceOpt, decimal newPriceProd)
+        {
+            if (newPriceZakup <= 0 || newPriceOpt <= 0 || newPriceProd <= 0)
+                throw new ArgumentException("Ціни мають бути більше нуля.");
+
+            Price_zakup = newPriceZakup;
+            Price_opt = newPriceOpt;
+            Price_prod = newPriceProd;
+        }
     }
 }
